@@ -113,7 +113,7 @@ const Header: React.FC = () => {
               {[
                 { name: t('home'), path: '/', sectionId: 'hero' },
                 { name: t('about'), path: '/', sectionId: 'about' },
-                { name: t('practiceAreas'), path: '/practice-areas' },
+                { name: t('practiceAreas'), path: '/', sectionId:'services' },
                 { name: t('team'), path: '/', sectionId: 'team' },
                 { name: t('contact'), path: '/', sectionId: 'contact' }
               ].map((item) => (
