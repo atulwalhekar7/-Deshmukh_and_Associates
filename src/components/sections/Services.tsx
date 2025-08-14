@@ -23,7 +23,7 @@ const Services: React.FC = () => {
     {
       icon: <Building className="w-12 h-12 text-golden-500" />,
       title: t('corporateLaw'),
-      description: t('corporateDesc'),
+      description: t('corporateLawDesc'),
       path: "/practice-areas/corporate-law"
     },
     {
