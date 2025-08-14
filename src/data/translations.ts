@@ -35,7 +35,7 @@ export const translations = {
     learnMore: 'Learn More',
     
     // About
-    whoWeAre: 'Who We Are',
+    whoWeAre: 'About us',
     aboutDesc1: 'Deshmukh & Associates is a full-service law firm based in Pune, with over 15 years of experience in civil, criminal, corporate, and property law. We are dedicated to providing exceptional legal services with integrity, professionalism, and a deep commitment to our clients\' success.',
     aboutDesc2: 'Our team combines extensive legal expertise with a personalized approach, ensuring that each client receives the attention and representation they deserve. We pride ourselves on building lasting relationships based on trust, transparency, and results.',
     learnMoreAbout: 'Learn More About Us',
