@@ -68,8 +68,12 @@ export const translations = {
     seniorPartner: 'Senior Partner',
     partner: 'Partner',
     associate: 'Associate',
+    associateAdvocate:'Associate Advocate',
+    seniorAssociate:'Senior Associate',
     civilProperty: 'Civil & Property Law',
     criminalFamily: 'Criminal & Family Law',
+    civilCriminal: 'Civil & Criminal Filing',
+    propertyRealEstate:'Property & Real Estate Disputes',
     corporateCommercial: 'Corporate & Commercial Law',
     viewProfile: 'View Full Profile',
     
@@ -78,6 +82,8 @@ export const translations = {
     testimonialsDesc: 'Don\'t just take our word for it - hear from our satisfied clients.',
     testimonial1: 'Deshmukh & Associates provided exceptional legal support during our property dispute. Their expertise and dedication resulted in a favorable outcome.',
     testimonial2: 'Professional, reliable, and thorough. The team\'s attention to detail and clear communication made the entire legal process smooth and stress-free.',
+    testimonial3: 'I am extremely grateful to Deshmukh & Associates for their outstanding representation in my criminal case. Their strategic approach and clear communication gave me confidence throughout the process.',
+    testimonial4: 'The team at Deshmukh & Associates handled our corporate legal matters with professionalism and precision. Their attention to detail and timely advice have been invaluable to our business.',
     
     // Contact
     getInTouch: 'Get In Touch',
@@ -88,7 +94,7 @@ export const translations = {
     sendMessage: 'Send Message',
     address: 'Address',
     phone: 'Phone',
-    addressText: '123 Legal Plaza, MG Road\nPune, Maharashtra 411001\nIndia',
+    addressText: '206, 2nd Floor, Shantideep complex, railway station road, vadgaon, Tal: maval , dist: pune -412106.',
     phoneNumber: '+91-98765-43210',
     emailAddress: 'info@deshmukhlaw.com',
     
@@ -199,8 +205,12 @@ export const translations = {
     seniorPartner: 'वरिष्ठ भागीदार',
     partner: 'भागीदार',
     associate: 'सहयोगी',
+    associateAdvocate:'सहयोगी अधिवक्ता',
+    seniorAssociate:'वरिष्ठ एसोसिएट',
     civilProperty: 'दिवाणी आणि मालमत्ता कायदा',
     criminalFamily: 'फौजदारी आणि कौटुंबिक कायदा',
+    civilCriminal: 'सिविलक्रिमिनल',
+    propertyRealEstate:'संपत्तिअचल संपत्ति',
     corporateCommercial: 'कॉर्पोरेट आणि व्यावसायिक कायदा',
     viewProfile: 'संपूर्ण प्रोफाइल पहा',
     
@@ -209,7 +219,8 @@ export const translations = {
     testimonialsDesc: 'फक्त आमचा शब्द घेऊ नका - आमच्या समाधानी क्लायंटकडून ऐका.',
     testimonial1: 'देशमुख अँड असोसिएट्सने आमच्या मालमत्ता विवादादरम्यान अपवादात्मक कायदेशीर सहाय्य प्रदान केले. त्यांच्या कौशल्य आणि समर्पणामुळे अनुकूल परिणाम मिळाला.',
     testimonial2: 'व्यावसायिक, विश्वसनीय आणि कसून. टीमच्या तपशीलाकडे लक्ष देणे आणि स्पष्ट संवादामुळे संपूर्ण कायदेशीर प्रक्रिया सुरळीत आणि तणावमुक्त झाली.',
-    
+    testimonial3: 'मैं अपने आपराधिक मामले में उत्कृष्ट प्रतिनिधित्व के लिए देशमुख एंड एसोसिएट्स का अत्यंत आभारी हूँ। उनके रणनीतिक दृष्टिकोण और स्पष्ट संवाद ने पूरी प्रक्रिया के दौरान मेरा आत्मविश्वास बढ़ाया।',
+    testimonial4: 'देशमुख एंड एसोसिएट्स की टीम ने हमारे कॉर्पोरेट कानूनी मामलों को पेशेवर और सटीक तरीके से संभाला। बारीकियों पर उनका ध्यान और समय पर दी गई सलाह हमारे व्यवसाय के लिए अमूल्य रही है।',
     // Contact
     getInTouch: 'संपर्कात रहा',
     contactDesc: 'तुमच्या कायदेशीर गरजांवर चर्चा करण्यास तयार आहात? आज सल्लामसलतीसाठी आमच्याशी संपर्क साधा.',
@@ -219,7 +230,7 @@ export const translations = {
     sendMessage: 'संदेश पाठवा',
     address: 'पत्ता',
     phone: 'फोन',
-    addressText: '१२३ लीगल प्लाझा, एमजी रोड\nपुणे, महाराष्ट्र ४११००१\nभारत',
+    addressText: '२०६, द्वितीय तल, शांतिदीप कॉम्प्लेक्स, रेलवे स्टेशन रोड, वडगांव, ताल: मावल, जिला: पुणे -४१२१०६.',
     phoneNumber: '+९१-९८७६५-४३२१०',
     emailAddress: 'info@deshmukhlaw.com',
     

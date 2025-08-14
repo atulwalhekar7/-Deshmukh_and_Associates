@@ -1,5 +1,8 @@
 import React from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
+import advo1 from '../../assets/team/advocate1.jpg';
+import advo2 from '../../assets/team/advocate2.jpg';
+import advo3 from '../../assets/team/Advocate3.jpg';
 
 const Team: React.FC = () => {
   const { t } = useTranslation();
@@ -22,6 +25,24 @@ const Team: React.FC = () => {
       role: t('associate'),
       specialization: t('corporateCommercial'),
       image: "https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg"
+    },
+    {
+      name: t('language') === 'mr' ? "अ‍ॅड. प्रसाद राऊत" : "Adv. Prasad Raut",
+      role: t('associateAdvocate'),
+      specialization: t('civilCriminal'),
+      image: advo1
+    },
+    {
+      name: t('language') === 'mr' ? "किरण राज" : "Adv. Kiran Raj",
+      role: t('seniorAssociate'),
+      specialization: t('propertyRealEstate'),
+      image: advo2
+    },
+    {
+      name: t('language') === 'mr' ? "अ‍ॅड. चिराग दवे" : "Adv. Chirag Dave",
+      role: t('seniorPartner'),
+      specialization: t('corporateCommercial'),
+      image: advo3
     }
   ];
 

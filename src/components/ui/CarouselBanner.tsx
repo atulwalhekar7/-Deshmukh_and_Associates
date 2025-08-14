@@ -87,7 +87,7 @@ const CarouselBanner: React.FC = () => {
   };
 
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section id='hero' className="relative h-screen overflow-hidden">
       {/* Carousel Container */}
       <div className="relative h-full">
         {slides.map((slide, index) => (
