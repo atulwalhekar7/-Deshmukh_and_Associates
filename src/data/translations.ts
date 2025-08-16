@@ -35,10 +35,12 @@ export const translations = {
     learnMore: 'Learn More',
     
     // About
-    whoWeAre: 'Who We Are',
-    aboutDesc1: 'Deshmukh & Associates is a full-service law firm based in Pune, with over 15 years of experience in civil, criminal, corporate, and property law. We are dedicated to providing exceptional legal services with integrity, professionalism, and a deep commitment to our clients\' success.',
-    aboutDesc2: 'Our team combines extensive legal expertise with a personalized approach, ensuring that each client receives the attention and representation they deserve. We pride ourselves on building lasting relationships based on trust, transparency, and results.',
-    learnMoreAbout: 'Learn More About Us',
+    whoWeAre: 'About us',
+    //aboutDesc1: 'Deshmukh & Associates is a full-service law firm based in Pune, with over 15 years of experience in civil, criminal, corporate, and property law. We are dedicated to providing exceptional legal services with integrity, professionalism, and a deep commitment to our clients\' success.',
+    aboutDesc1: 'Harshad R.Deshmukh and Advocate is a multidisciplinary Law firm based in pune,having reputation for its expertise and excellence in a bouquet of diversified legal services.founded onthe principle of ethical andquality Law practice,commitment,mutual trust and client contentment,it has its head office in pune,India with a proactive ability of rendering continuum of legalservices across the globe.',
+    //aboutDesc2: 'Our team combines extensive legal expertise with a personalized approach, ensuring that each client receives the attention and representation they deserve. We pride ourselves on building lasting relationships based on trust, transparency, and results.',
+    aboutDesc2:'RGAA has a team of dedicated Lawyers and para-legals,having passing for work and impeccable dedication to the intrests of its clients and an outstanding ability with significant depth and breadth of required experience in the field to provide solutions for achiving best result forits clients.',
+      learnMoreAbout: 'Learn More About Us',
     
     // Services
     practiceAreasTitle: 'Practice Areas',
@@ -51,6 +53,14 @@ export const translations = {
     corporateLawDesc: 'Strategic legal counsel for businesses, mergers, acquisitions, and compliance.',
     propertyLaw: 'Property Law',
     propertyDesc: 'Specialized expertise in property law, real estate transactions, and disputes.',
+    consumerLaw:'Consumer Law',
+    consumerDesc:'its is low created for consumer sequrity',
+    corporateandcommercialLaw:'corporate and commercial Law',
+    corporateandcommercialLawDesc:'deals with the creation,structure,and goverance of companies',
+    environmentLow:'environment Law',
+    environmentLowDesc:'environmental low is the set of rules ,regulations,and principle that protect the environment.',
+    insuranceLaw:'insurance Law',
+    insuranceLawDesc:'insurance law is the branch of low that deals with agreements btween an insurance company',
     
     // Why Choose Us
     whyChooseUs: 'Why Choose Us',

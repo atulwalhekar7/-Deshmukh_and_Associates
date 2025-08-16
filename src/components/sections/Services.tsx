@@ -1,7 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Scale, Building, Home, Gavel } from 'lucide-react';
+import { Scale, Building, Home, Gavel} from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
+import LocalDiningIcon from '@mui/icons-material/LocalDining';
+import ForestIcon from '@mui/icons-material/Forest';
+import LaptopIcon from '@mui/icons-material/Laptop';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+//
+
 
 const Services: React.FC = () => {
   const navigate = useNavigate();
@@ -31,8 +37,34 @@ const Services: React.FC = () => {
       title: t('propertyLaw'),
       description: t('propertyDesc'),
       path: "/practice-areas/property-law"
+    },
+    {
+      icon: <LocalDiningIcon className="w-12 h-12 text-golden-500" />,
+      title: t('consumarLaw'),
+      description: t('consumerDesc'),
+      path: "/practice-areas/consumer-law"
+    },
+    {
+      icon: <LaptopIcon className="w-12 h-12 text-golden-500" />,
+      title: t('corporate and commercial Law'),
+      description: t('corporateandcommercialLawDesc'),
+      path: "/practice-areas/corporateandcommercialLaw-law"
+    },
+    {
+      icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
+      title: t('environmentLow'),
+      description: t('environmentLowDesc'),
+      path: "/practice-areas/environmentLow-law"
+    },
+    {
+      icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,
+      title: t('insuranceLaw'),
+      description: t('insuranceLawDesc'),
+      path: "/practice-areas/insurance-law"
     }
   ];
+
+  //];
 
   return (
     <section id="services" className="py-24 bg-charcoal transition-colors duration-500">
