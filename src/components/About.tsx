@@ -15,7 +15,7 @@ const About = () => {
           <div className="animate-fade-in-right">
             <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-6">
               <span className="bg-gradient-to-r from-rose-gold-500 to-rose-gold-600 bg-clip-text text-transparent">
-              About us
+              About omkar
               </span>
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
