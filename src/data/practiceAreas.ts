@@ -85,5 +85,5 @@ export const practiceAreas: PracticeArea[] = [
     ],
     experience: '12+ Years',
     successRate: '89%'
-  }
+  },
 ];

@@ -15,7 +15,8 @@ export default function Header() {
 
   return (
     <>
-      <header
+    <section id="home">
+      <header 
         ref={headerRef}
         className="fixed top-0 left-0 w-full z-[9999] bg-[#0d1b2a] shadow-md"
       >
@@ -53,7 +54,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#practice-areas"
+              href="#services"
               className="hover:text-yellow-500 transition"
             >
               Practice Areas
@@ -98,7 +99,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#practice-areas"
+              href="#services"
               className="block hover:text-yellow-500"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -118,15 +119,17 @@ export default function Header() {
             >
               Contact
             </a>
-            <button className="w-full bg-yellow-500 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-400 transition">
+            
+            <a href="contact" className="w-full bg-yellow-500 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-400 transition">
               Free Consultation
-            </button>
+            </a>
           </div>
         )}
       </header>
 
       {/* Padding to push hero down */}
       <div style={{ paddingTop: headerHeight }} />
+      </section>
     </>
   )
 }
