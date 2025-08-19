@@ -48,19 +48,19 @@ const Services: React.FC = () => {
       icon: <LaptopIcon className="w-12 h-12 text-golden-500" />,
       title: t('corporate and commercial Law'),
       description: t('corporateandcommercialLawDesc'),
-      path: "/practice-areas/corporateandcommercialLaw-law"
+      path: "/practice-areas/corporateandcommercial-Law"
     },
     {
       icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
       title: t('environmentLow'),
       description: t('environmentLowDesc'),
-      path: "/practice-areas/environmentLow-law"
+      path: "/practice-areas/environment-Low"
     },
     {
       icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,
       title: t('insuranceLaw'),
       description: t('insuranceLawDesc'),
-      path: "/practice-areas/insurance-law"
+      path: "/practice-areas/insurance-Law"
     }
   ];
 
