@@ -84,10 +84,10 @@ const Header: React.FC = () => {
           : 'bg-transparent mt-10'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-6">
+          <div className="flex justify-between items-center px-4 py-5">
             {/* Logo */}
             <div className="flex-shrink-0 cursor-pointer" onClick={() => handleNavigation('/')}>
-              <h1 className={`text-3xl font-bold transition-all duration-300 ${
+              <a href='#home'><h1  className={`text-2xl font-bold transition-all duration-300 ${
                 isScrolled 
                   ? 'text-white' 
                   : 'text-white'
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
                 <span className={isScrolled ? 'text-white' : 'text-white'}>
                   {language === 'mr' ? ' अँड असोसिएट्स' : ' & Associates'}
                 </span>
-              </h1>
+              </h1></a>
               <p className={`text-sm font-medium mt-1 ${
                 isScrolled 
                   ? 'text-gold' 
@@ -109,7 +109,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
+            <nav className="hidden lg:flex items-center space-x-7">
               {[
                 { name: t('home'), path: '/', sectionId: 'home' },
                 { name: t('about'), path: '/', sectionId: 'about' },
