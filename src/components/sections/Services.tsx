@@ -1,7 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Scale, Building, Home, Gavel } from 'lucide-react';
+import { Scale, Building, Home, Gavel} from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
+import LocalDiningIcon from '@mui/icons-material/LocalDining';
+import ForestIcon from '@mui/icons-material/Forest';
+import LaptopIcon from '@mui/icons-material/Laptop';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+//
+
 
 const Services: React.FC = () => {
   const navigate = useNavigate();
@@ -31,8 +37,34 @@ const Services: React.FC = () => {
       title: t('propertyLaw'),
       description: t('propertyDesc'),
       path: "/practice-areas/property-law"
+    },
+    {
+      icon: <LocalDiningIcon className="w-12 h-12 text-golden-500" />,
+      title: t('consumarLaw'),
+      description: t('consumerDesc'),
+      path: "/practice-areas/consumer-law"
+    },
+    {
+      icon: <LaptopIcon className="w-12 h-12 text-golden-500" />,
+      title: t('corporate and commercial Law'),
+      description: t('corporateandcommercialLawDesc'),
+      path: "/practice-areas/corporateandcommercial-Law"
+    },
+    {
+      icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
+      title: t('environmentLow'),
+      description: t('environmentLowDesc'),
+      path: "/practice-areas/environment-Low"
+    },
+    {
+      icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,
+      title: t('insuranceLaw'),
+      description: t('insuranceLawDesc'),
+      path: "/practice-areas/insurance-Law"
     }
   ];
+
+  //];
 
   return (
     <section id="services" className="py-24 bg-charcoal transition-colors duration-500">
@@ -61,7 +93,7 @@ const Services: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-black mb-4">{service.title}</h3>
               <p className="text-charcoal leading-relaxed mb-6">{service.description}</p>
-              <button className="text-gold font-bold hover:text-gold-600 transition-all duration-300 group-hover:translate-x-2">
+              <button onClick={() => window.scrollTo(0,0)} className="text-gold font-bold hover:text-gold-600 transition-all duration-300 group-hover:translate-x-2">
                 {t('learnMore')} →
               </button>
             </div>

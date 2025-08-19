@@ -68,5 +68,73 @@ export const practiceAreas: PracticeArea[] = [
     ],
     experience: '20+ Years',
     successRate: '94%'
-  }
+  },
+  {
+    id: 'consumer-law',
+    title: 'consumer Law',
+    description: 'its is low created for consumer sequrity',
+    icon: 'Gavel',
+    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    services: [
+      'White Collar Crimes',
+      'Drug Offenses',
+      'Assault & Battery',
+      'Theft & Fraud',
+      'DUI Defense',
+      'Appeals & Post-Conviction'
+    ],
+    experience: '12+ Years',
+    successRate: '89%'
+  },
+    {
+    id: 'corporateandcommercial-Law',
+    title: 'corporate and commercial Low',
+    description: 'its is low created for consumer sequrity',
+    icon: 'Gavel',
+    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    services: [
+      'White Collar Crimes',
+      'Drug Offenses',
+      'Assault & Battery',
+      'Theft & Fraud',
+      'DUI Defense',
+      'Appeals & Post-Conviction'
+    ],
+    experience: '12+ Years',
+    successRate: '89%'
+  },
+  {
+    id: 'environment-Low',
+    title: 'environment Low',
+    description: 'its is low created for consumer sequrity',
+    icon: 'Gavel',
+    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    services: [
+      'White Collar Crimes',
+      'Drug Offenses',
+      'Assault & Battery',
+      'Theft & Fraud',
+      'DUI Defense',
+      'Appeals & Post-Conviction'
+    ],
+    experience: '12+ Years',
+    successRate: '89%'
+  },
+  {
+    id: 'insurance-Law',
+    title: 'insurance Law',
+    description: 'its is low created for consumer sequrity',
+    icon: 'Gavel',
+    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    services: [
+      'White Collar Crimes',
+      'Drug Offenses',
+      'Assault & Battery',
+      'Theft & Fraud',
+      'DUI Defense',
+      'Appeals & Post-Conviction'
+    ],
+    experience: '12+ Years',
+    successRate: '89%'
+  },
 ];
