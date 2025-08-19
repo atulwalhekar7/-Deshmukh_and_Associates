@@ -126,6 +126,7 @@
 
 // export default CarouselBanner;
 import React, { useState, useEffect } from "react";
+import law4 from "../../assets/team/hero1.png";
 
 const CarouselBanner = () => {
   const [navSolid, setNavSolid] = useState(false);
@@ -150,7 +151,7 @@ const CarouselBanner = () => {
       "With over two decades of combined experience, we deliver strategic legal solutions that protect your interests and secure favorable outcomes.",
     button1: "Get Legal Help",
     button2: "Learn More",
-    image: "/assets/your-image.png", // replace with actual path
+    image: law4 // replace with actual path
   };
 
   return (
@@ -196,6 +197,7 @@ const CarouselBanner = () => {
               </button>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

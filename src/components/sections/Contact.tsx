@@ -54,6 +54,7 @@ const Contact: React.FC = () => {
                   type="text"
                   id="name"
                   name="name"
+                  placeholder='Your name'
                   value={formData.name}
                   onChange={handleInputChange}
                   required
@@ -69,6 +70,7 @@ const Contact: React.FC = () => {
                   type="email"
                   id="email"
                   name="email"
+                  placeholder='Your e-mail address'
                   value={formData.email}
                   onChange={handleInputChange}
                   required
@@ -83,6 +85,7 @@ const Contact: React.FC = () => {
                 <textarea
                   id="message"
                   name="message"
+                  placeholder='Message'
                   rows={5}
                   value={formData.message}
                   onChange={handleInputChange}
@@ -136,9 +139,9 @@ const Contact: React.FC = () => {
             </div>
             
             {/* Map placeholder */}
-            <div className="mt-12 bg-gray-200 h-64 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
+            {/* <div className="mt-12 bg-gray-200 h-64 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
               <p className="text-gray-500">Google Maps Integration</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

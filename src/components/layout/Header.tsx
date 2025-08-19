@@ -41,9 +41,9 @@ export default function Header() {
         {/* Main Nav */}
         <div className="flex justify-between items-center px-6 py-4">
           {/* Logo */}
-          <div className="text-2xl font-bold text-yellow-500">
+          <a href="#home" className="text-2xl font-bold text-yellow-500">
             Deshmukh <span className="text-white">& Associates</span>
-          </div>
+          </a>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8 text-gray-200">
