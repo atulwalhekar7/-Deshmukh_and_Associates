@@ -39,14 +39,14 @@ export default function Header() {
         </div>
 
         {/* Main Nav */}
-        <div className="flex justify-between items-center px-6 py-4">
+        <div className="flex justify-between items-center px-6 py-2">
           {/* Logo */}
           <a href="#home" className="text-2xl font-bold text-yellow-500">
             Deshmukh <span className="text-white">& Associates</span>
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center space-x-8 text-gray-200">
+          <nav className="hidden md:flex items-center space-x-8  text-gray-200">
             <a href="#home" className="hover:text-yellow-500 transition">
               Home
             </a>
@@ -65,7 +65,7 @@ export default function Header() {
             <a href="#contact" className="hover:text-yellow-500 transition">
               Contact
             </a>
-            <button className="bg-yellow-500 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-400 transition">
+            <button className="bg-yellow-500 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-400  transition">
               Free Consultation
             </button>
           </nav>
@@ -120,7 +120,7 @@ export default function Header() {
               Contact
             </a>
             
-            <a href="contact" className="w-full bg-yellow-500 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-400 transition">
+            <a href="contact" className="w-full bg-yellow-500 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-400  transition">
               Free Consultation
             </a>
           </div>

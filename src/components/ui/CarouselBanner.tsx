@@ -125,8 +125,10 @@
 // };
 
 // export default CarouselBanner;
+
+
 import React, { useState, useEffect } from "react";
-import law4 from "../../assets/team/hero1.png";
+import law5 from "../../assets/team/law5.jpg";
 
 const CarouselBanner = () => {
   const [navSolid, setNavSolid] = useState(false);
@@ -144,18 +146,19 @@ const CarouselBanner = () => {
   }, []);
 
   const slide = {
-    background: "from-gray-900 via-gray-800 to-gray-900",
+    backgroundGradient:
+      "linear-gradient(to bottom right, rgba(17, 24, 39, 0.85), rgba(31, 41, 55, 0.85))", // dark gray overlay with transparency
     title: "Deshmukh & Associates",
     subtitle: "Excellence in Legal Representation",
     description:
       "With over two decades of combined experience, we deliver strategic legal solutions that protect your interests and secure favorable outcomes.",
     button1: "Get Legal Help",
     button2: "Learn More",
-    image: law4 // replace with actual path
+    image: law5 // background image
   };
 
   return (
-    <div className="relative h-[580px] bg-gradient-to-br overflow-hidden">
+    <div className="relative h-[580px] md:h-[560px] overflow-hidden">
       {/* Navbar */}
       <nav
         className={`fixed top-0 left-0 w-full z-20 transition-all duration-300 ${
@@ -163,20 +166,46 @@ const CarouselBanner = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center text-white">
-          <h1 className="text-xl font-bold">Deshmukh & Associates</h1>
+          {/* <h1 className="text-xl font-bold">Deshmukh & Associates</h1> */}
           <ul className="hidden md:flex gap-6">
-            <li><a href="#home" className="hover:text-yellow-400">Home</a></li>
-            <li><a href="#about" className="hover:text-yellow-400">About</a></li>
-            <li><a href="#practice" className="hover:text-yellow-400">Practice Areas</a></li>
-            <li><a href="#team" className="hover:text-yellow-400">Team</a></li>
-            <li><a href="#contact" className="hover:text-yellow-400">Contact</a></li>
+            <li>
+              <a href="#home" className="hover:text-yellow-400">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="hover:text-yellow-400">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#practice" className="hover:text-yellow-400">
+                Practice Areas
+              </a>
+            </li>
+            <li>
+              <a href="#team" className="hover:text-yellow-400">
+                Team
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-yellow-400">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
 
-      {/* Background */}
+      {/* Background with image and gradient overlay */}
       <div
-        className={`h-full w-full bg-gradient-to-br ${slide.background} relative`}
+        className="h-full w-full py-2 relative"
+        style={{
+          backgroundImage: `${slide.backgroundGradient}, url(${slide.image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-between px-8 md:px-16 lg:px-24 text-white pt-[100px]">
           {/* Text */}
@@ -197,7 +226,6 @@ const CarouselBanner = () => {
               </button>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
