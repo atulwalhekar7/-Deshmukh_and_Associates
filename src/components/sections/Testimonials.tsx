@@ -107,9 +107,21 @@ const Testimonials: React.FC = () => {
         {/* Responsive grid layout for testimonials */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, i) => (
+            // <div
+            //   key={i}
+            //   className="bg-gray-50 p-8 rounded-xl shadow-lg border hover:border-gold transition-all h-full flex flex-col justify-between"
+            // >
+            //   <div>
+            //     <div className="flex mb-4">{renderStars(testimonial.rating)}</div>
+            //     <blockquote className="text-lg text-charcoal mb-6 leading-relaxed">
+            //       "{testimonial.quote}"
+            //     </blockquote>
+            //   </div>
+            //   <cite className="text-black font-semibold">— {testimonial.author}</cite>
+            // </div>
             <div
               key={i}
-              className="bg-gray-50 p-8 rounded-xl shadow-lg border hover:border-gold transition-all h-full flex flex-col justify-between"
+              className="bg-gray-50 p-2 rounded-xl shadow-lg border hover:border-gold transition-all h-full flex flex-col justify-between"
             >
               <div>
                 <div className="flex mb-4">{renderStars(testimonial.rating)}</div>
@@ -119,6 +131,7 @@ const Testimonials: React.FC = () => {
               </div>
               <cite className="text-black font-semibold">— {testimonial.author}</cite>
             </div>
+
           ))}
         </div>
       </div>

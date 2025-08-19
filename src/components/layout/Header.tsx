@@ -209,7 +209,7 @@ const Header: React.FC = () => {
             <div className="lg:hidden bg-charcoal/95 backdrop-blur-md border-t border-gold/20 animate-fade-in rounded-b-xl">
               <div className="px-4 pt-4 pb-6 space-y-2">
                 {[
-                  { name: t('home'), path: '/', sectionId: 'hero' },
+                  { name: t('home'), path: '/', sectionId: 'home' },
                   { name: t('about'), path: '/', sectionId: 'about' },
                   { name: t('practiceAreas'),   path: '/', sectionId: 'services' },
                   { name: t('team'), path: '/', sectionId: 'team' },

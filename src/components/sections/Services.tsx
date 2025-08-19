@@ -93,7 +93,7 @@ const Services: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-black mb-4">{service.title}</h3>
               <p className="text-charcoal leading-relaxed mb-6">{service.description}</p>
-              <button className="text-gold font-bold hover:text-gold-600 transition-all duration-300 group-hover:translate-x-2">
+              <button onClick={() => window.scrollTo(0,0)} className="text-gold font-bold hover:text-gold-600 transition-all duration-300 group-hover:translate-x-2">
                 {t('learnMore')} →
               </button>
             </div>
