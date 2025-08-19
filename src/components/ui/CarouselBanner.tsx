@@ -136,7 +136,7 @@ const CarouselBanner: React.FC = () => {
               {/* Content */}
               <div className="relative z-20 h-full flex items-center pt-16">
                 <div className="max-w-6xl mx-auto  w-full ">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 mx-4 gap-16 items-center">
 
                     {/* Text Content */}
                     <div className="text-left animate-fade-in-up">

@@ -2,6 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram, Scale } from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
+import locationCard from '../../assets/team/locationCard.jpeg';
+import locationCard3 from '../../assets/team/locationCard3.jpeg';
+
 
 const Footer: React.FC = () => {
   const navigate = useNavigate();
@@ -14,19 +17,19 @@ const Footer: React.FC = () => {
     { name: t('propertyLaw'), path: '/practice-areas/property-law' }
   ];
 
-  const quickLinks = [
-    { name: t('about'), path: '/#about' },
-    { name: t('team'), path: '/#team' },
-    { name: t('clientsSay'), path: '/#testimonials' },
-    { name: t('contact'), path: '/#contact' }
-  ];
+  // const quickLinks = [
+  //   { name: t('about'), path: '/#about' },
+  //   { name: t('team'), path: '/#team' },
+  //   { name: t('clientsSay'), path: '/#testimonials' },
+  //   { name: t('contact'), path: '/#contact' }
+  // ];
 
-  const legalLinks = [
-    { name: t('privacyPolicy'), path: '/privacy' },
-    { name: t('termsOfService'), path: '/terms' },
-    { name: t('legalDisclaimer'), path: '/disclaimer' },
-    { name: t('cookiePolicy'), path: '/cookies' }
-  ];
+  // const legalLinks = [
+  //   { name: t('privacyPolicy'), path: '/privacy' },
+  //   { name: t('termsOfService'), path: '/terms' },
+  //   { name: t('legalDisclaimer'), path: '/disclaimer' },
+  //   { name: t('cookiePolicy'), path: '/cookies' }
+  // ];
 
   return (
     <footer className="bg-black text-white transition-colors duration-500">
@@ -44,11 +47,11 @@ const Footer: React.FC = () => {
               </h3>
               <p className="text-gold font-medium">{t('legalExcellence')}</p>
             </div>
-            
+
             <p className="text-gray-300 leading-relaxed mb-6">
               {t('footerDesc')}
             </p>
-            
+
             {/* Social Media */}
             <div className="flex space-x-4">
               {[
@@ -78,7 +81,7 @@ const Footer: React.FC = () => {
               {practiceAreas.map((area) => (
                 <li key={area.name}>
                   <button
-                    onClick={() => navigate(area.path)}
+                    onClick={() => {window.scrollTo(0,0); navigate(area.path)}}
                     className="text-gray-300 hover:text-gold transition-colors duration-300 hover:translate-x-1 transform"
                   >
                     {area.name}
@@ -89,7 +92,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h4 className="text-xl font-bold mb-6 text-gold">{t('quickLinks')}</h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -119,7 +122,23 @@ const Footer: React.FC = () => {
                 ))}
               </ul>
             </div>
+          </div> */}
+
+          
+
+          <div className="flex flex-col space-y-6">
+            <img
+              src={locationCard}
+              alt=""
+              className="w-full  mx-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer rounded-lg shadow-lg"
+            />
+            <img
+              src={locationCard3}
+              alt=""
+              className="w-full  mx-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer rounded-lg shadow-lg"
+            />
           </div>
+
 
           {/* Contact Info */}
           <div>
@@ -128,8 +147,8 @@ const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <a href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" ><MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" /></a>
                 <div>
-                  <a  className="text-gray-300"  href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" >
-           
+                  <a className="text-gray-300" href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" >
+
                     {t('addressText').split('\n').map((line, index) => (
                       <React.Fragment key={index}>
                         {line}
@@ -139,21 +158,21 @@ const Footer: React.FC = () => {
                   </a>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-gold flex-shrink-0" />
                 <a href="tel:+919876543210" className="text-gray-300 hover:text-gold transition-colors duration-300">
                   {t('phoneNumber')}
                 </a>
               </div>
-              
+
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-gold flex-shrink-0" />
                 <a href="mailto:info@deshmukhlaw.com" className="text-gray-300 hover:text-gold transition-colors duration-300">
                   {t('emailAddress')}
                 </a>
               </div>
-              
+
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-gold mt-1 flex-shrink-0" />
                 <div className="text-gray-300">
@@ -175,7 +194,7 @@ const Footer: React.FC = () => {
               <p>{t('copyright')}</p>
               <p className="text-sm mt-1">{t('barRegistration')}</p>
             </div>
-            
+
             <div className="flex items-center space-x-6 text-sm text-gray-400">
               <span>{t('ratedFirm')}</span>
               <span>{t('clientSatisfaction')}</span>
