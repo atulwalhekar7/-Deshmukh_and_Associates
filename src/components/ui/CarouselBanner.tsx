@@ -144,7 +144,7 @@ const CarouselBanner: React.FC = () => {
                         {slide.icon}
                       </div>
 
-                      <h1 className="text-3xl md:text-5xl lg:text-4xl font-bold mb-5 leading-tight">
+                      <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold mb-5 leading-tight">
                         <span className={slide.background.includes('white') ? 'text-black' : 'text-gold'}>
                           {language === 'mr' ? 'देशमुख' : 'Deshmukh'}
                         </span>
