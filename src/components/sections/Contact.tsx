@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder='Your name'
+                  placeholder={t('yourName')}
                   value={formData.name}
                   onChange={handleInputChange}
                   required
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder='Your e-mail address'
+                  placeholder= {t('emailAddresss')}
                   value={formData.email}
                   onChange={handleInputChange}
                   required
@@ -85,7 +85,7 @@ const Contact: React.FC = () => {
                 <textarea
                   id="message"
                   name="message"
-                  placeholder='Message'
+                  placeholder={t('message')}
                   rows={5}
                   value={formData.message}
                   onChange={handleInputChange}
@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
           <div className="animate-fade-in-right">
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <MapPin className="w-6 h-6 text-gold mt-1" />
+                <a href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank"><MapPin className="w-6 h-6 text-gold mt-1" /></a>
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">{t('address')}</h3>
                   <p className="text-white">
