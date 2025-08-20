@@ -22,11 +22,18 @@ const About: React.FC = () => {
               </span>
             </h2>
             <p className="text-lg text-charcoal mb-8 leading-relaxed">
+              {t('aboutDesc01')}
+            </p>
+            <p className="text-lg text-charcoal mb-8 leading-relaxed">
               {t('aboutDesc1')}
             </p>
             <p className="text-lg text-charcoal mb-8 leading-relaxed">
               {t('aboutDesc2')}
             </p>
+            <p className="text-lg text-charcoal mb-8 leading-relaxed">
+              {t('aboutDesc3')}
+            </p>
+            
             <button className="bg-gold hover:bg-gold-600 text-black px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
               {t('learnMoreAbout')}
             </button>

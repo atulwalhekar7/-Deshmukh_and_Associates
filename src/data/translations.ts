@@ -37,9 +37,11 @@ export const translations = {
     // About
     whoWeAre: 'About us',
     //aboutDesc1: 'Deshmukh & Associates is a full-service law firm based in Pune, with over 15 years of experience in civil, criminal, corporate, and property law. We are dedicated to providing exceptional legal services with integrity, professionalism, and a deep commitment to our clients\' success.',
-    aboutDesc1: 'Harshad R.Deshmukh and Advocate is a multidisciplinary Law firm based in pune,having reputation for its expertise and excellence in a bouquet of diversified legal services.founded onthe principle of ethical andquality Law practice,commitment,mutual trust and client contentment,it has its head office in pune,India with a proactive ability of rendering continuum of legalservices across the globe.',
+    aboutDesc01: 'Welcome to Deshmukh and Associates!',
     //aboutDesc2: 'Our team combines extensive legal expertise with a personalized approach, ensuring that each client receives the attention and representation they deserve. We pride ourselves on building lasting relationships based on trust, transparency, and results.',
-    aboutDesc2:'RGAA has a team of dedicated Lawyers and para-legals,having passing for work and impeccable dedication to the intrests of its clients and an outstanding ability with significant depth and breadth of required experience in the field to provide solutions for achiving best result forits clients.',
+     aboutDesc1: 'At Deshmukh and Associates,we believe in the power of adcocacy to drive positve change. Established in 2019,our firm is commited to protecting the rights of individuals and organization in vadgaon maval,pune,and across india.Our vision is to build a just society where every individual’s rights are respected and upheld. We are guided by integrity, compassion, and a commitment to excellence in legal practice. From complex legal matters to everyday disputes, we provide expert counsel and dedicated representation.',
+     aboutDesc2:'Over the years, we have earned the trust of our clients through ethical practice, legal expertise, and a results-driven approach. Every case matters to us, and we strive to achieve the best outcomes with diligence and professionalismExplore our website to learn more about our team, our services, and how we can assist you.',
+     aboutDesc3: 'Thank you for visiting Deshmukh Associates. We look forward to serving you.- Adv. Harshad Rajendra Deshmukh.- Adv. Kajal Harshad Deshmukh-Walhekar.',
       learnMoreAbout: 'Learn More About Us',
     
     // Services
@@ -185,8 +187,10 @@ export const translations = {
     
     // About
     whoWeAre: 'आम्ही कोण आहोत',
-    aboutDesc1: 'देशमुख अँड असोसिएट्स ही पुण्यात स्थित एक पूर्ण-सेवा कायदा फर्म आहे, ज्याला दिवाणी, फौजदारी, कॉर्पोरेट आणि मालमत्ता कायद्यात १५ वर्षांहून अधिक अनुभव आहे. आम्ही सचोटी, व्यावसायिकता आणि आमच्या क्लायंटच्या यशासाठी खोल वचनबद्धतेसह अपवादात्मक कायदेशीर सेवा प्रदान करण्यासाठी समर्पित आहोत.',
-    aboutDesc2: 'आमची टीम व्यापक कायदेशीर कौशल्य आणि वैयक्तिकृत दृष्टिकोन एकत्र करते, हे सुनिश्चित करते की प्रत्येक क्लायंटला त्यांच्या पात्र असलेले लक्ष आणि प्रतिनिधित्व मिळते. आम्हाला विश्वास, पारदर्शकता आणि परिणामांवर आधारित चिरस्थायी नातेसंबंध निर्माण करण्याचा अभिमान आहे.',
+    aboutDesc01: 'Welcome to Deshmukh and Associates!',
+    aboutDesc1: 'Deshmukh & Associates मध्ये आपले स्वागत आहे! आम्ही वकिलीच्या शक्तीवर विश्वास ठेवतो जी समाजात सकारात्मक बदल घडवू शकते. २०१९ मध्ये स्थापन झालेली आमची फर्म, वडगाव मावळ, पुणे तसेच संपूर्ण भारतातील व्यक्ती आणि संस्थांच्या हक्कांचे संरक्षण करण्यासाठी कटिबद्ध आहे. आमचे ध्येय म्हणजे एक न्याय्य समाज निर्माण करणे, जिथे प्रत्येक व्यक्तीचे हक्क सन्मानपूर्वक मानले जातील आणि जपले जातील. प्रामाणिकपणा, सहानुभूती आणि कायदेशीर प्रॅक्टिसमधील उत्कृष्टतेची निष्ठा हे आमचे मार्गदर्शक तत्त्व आहे. जटिल कायदेशीर बाबीं पासून ते दैनंदिन वादांपर्यंत, आम्ही तज्ज्ञ सल्ला आणि समर्पित प्रतिनिधित्व प्रदान करतो',
+    aboutDesc2: 'वर्षानुवर्षे आम्ही नैतिक व्यवहार, कायदेशीर कौशल्य आणि परिणामाभिमुख दृष्टिकोनाच्या माध्यमातून आमच्या क्लायंट्सचा विश्वास संपादन केला आहे. प्रत्येक केस आमच्यासाठी महत्त्वाची आहे, आणि आम्ही दक्षता व व्यावसायिकतेसह सर्वोत्तम निकाल मिळवण्यासाठी सतत प्रयत्नशील आहोत. आमची टीम, सेवा आणि आम्ही आपली कशी मदत करू शकतो याबद्दल अधिक जाणून घेण्यासाठी आमची वेबसाइट एक्सप्लोर करा. ',
+    aboutDesc3: 'Deshmukh & Associates भेट दिल्याबद्दल आपले मनःपूर्वक आभार. आम्ही आपली सेवा करण्यास उत्सुक आहोत.– अॅड. हर्षद राजेंद्र देशमुख– अॅड. काजल हर्षद देशमुख-वळवेकर',
     learnMoreAbout: 'आमच्याबद्दल अधिक जाणून घ्या',
     
     // Services
