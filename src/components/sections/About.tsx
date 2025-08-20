@@ -16,24 +16,38 @@ const About: React.FC = () => {
             />
           </div>
           <div className="animate-fade-in-right">
-            <h2 className="text-4xl font-bold text-black mb-6">
+            <h2 className="text-4xl font-bold text-black mb-3">
               <span className="text-gold">
                 {t('whoWeAre')}
               </span>
             </h2>
-            <p className="text-lg text-charcoal mb-8 leading-relaxed">
+            <p className="text-lg text-charcoal mb-2 leading-relaxed">
               {t('aboutDesc01')}
             </p>
-            <p className="text-lg text-charcoal mb-8 leading-relaxed">
+            <p className="text-lg text-charcoal mb-2 leading-relaxed">
               {t('aboutDesc1')}
             </p>
-            <p className="text-lg text-charcoal mb-8 leading-relaxed">
+            <p className="text-lg text-charcoal mb-1 leading-relaxed">
               {t('aboutDesc2')}
             </p>
-            <p className="text-lg text-charcoal mb-8 leading-relaxed">
+            <p className="text-lg text-charcoal mb-1 leading-relaxed">
               {t('aboutDesc3')}
             </p>
-            
+            {/* <p className="text-lg text-charcoal mb-1 leading-relaxed">
+              {t('aboutDesc4')}
+            </p>
+            <p className="text-lg text-charcoal mb-1 leading-relaxed">
+              {t('aboutDesc5')}
+            </p> */}
+            <div className='text-right text-charcoal'>
+            <p className="text-lg text-gold font-bold mb-0 mt-4 leading-relaxed">
+              {t('aboutDesc4')}
+            </p>
+            <p className="text-lg text-gold font-bold mb-6 leading-relaxed">
+              {t('aboutDesc5')}
+            </p>
+            </div>
+
             <button className="bg-gold hover:bg-gold-600 text-black px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
               {t('learnMoreAbout')}
             </button>

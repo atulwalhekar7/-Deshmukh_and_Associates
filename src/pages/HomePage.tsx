@@ -17,8 +17,9 @@ const HomePage: React.FC = () => {
       <WhyChooseUs />
       <Team />
       <Testimonials />
-      <Contact />
       <Gallery />
+      <Contact />
+      
     </div>
   );
 };

@@ -41,7 +41,9 @@ export const translations = {
     //aboutDesc2: 'Our team combines extensive legal expertise with a personalized approach, ensuring that each client receives the attention and representation they deserve. We pride ourselves on building lasting relationships based on trust, transparency, and results.',
      aboutDesc1: 'At Deshmukh and Associates,we believe in the power of adcocacy to drive positve change. Established in 2019,our firm is commited to protecting the rights of individuals and organization in vadgaon maval,pune,and across india.Our vision is to build a just society where every individual’s rights are respected and upheld. We are guided by integrity, compassion, and a commitment to excellence in legal practice. From complex legal matters to everyday disputes, we provide expert counsel and dedicated representation.',
      aboutDesc2:'Over the years, we have earned the trust of our clients through ethical practice, legal expertise, and a results-driven approach. Every case matters to us, and we strive to achieve the best outcomes with diligence and professionalismExplore our website to learn more about our team, our services, and how we can assist you.',
-     aboutDesc3: 'Thank you for visiting Deshmukh Associates. We look forward to serving you.- Adv. Harshad Rajendra Deshmukh.- Adv. Kajal Harshad Deshmukh-Walhekar.',
+     aboutDesc3: 'Thank you for visiting Deshmukh Associates. We look forward to serving you.',
+     aboutDesc4: '- Adv. Harshad Rajendra Deshmukh.',
+     aboutDesc5: '- Adv. Kajal Harshad Deshmukh-Walhekar.',
       learnMoreAbout: 'Learn More About Us',
     
     // Services
