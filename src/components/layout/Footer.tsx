@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
   const { t, language } = useTranslation();
 
   const practiceAreas = [
-    { name: t('civilLaw'), path: '/practice-areas/civil-law' },
-    { name: t('criminalLaw'), path: '/practice-areas/criminal-law' },
-    { name: t('corporateLaw'), path: '/practice-areas/corporate-law' },
-    { name: t('propertyLaw'), path: '/practice-areas/property-law' }
+    { name: t('civilLaw'), path: '/Deshmukh&Associates/civil-law' },
+    { name: t('criminalLaw'), path: '/Deshmukh&Associates/criminal-law' },
+    { name: t('corporateLaw'), path: '/Deshmukh&Associates/corporate-law' },
+    { name: t('propertyLaw'), path: '/Deshmukh&Associates/property-law' }
   ];
 
   // const quickLinks = [

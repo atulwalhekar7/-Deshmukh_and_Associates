@@ -154,7 +154,7 @@ const Header: React.FC = () => {
               </button>
               
               {/* Dark Mode Toggle */}
-              <button
+              {/* <button
                 onClick={toggleDarkMode}
                 className={`p-3 rounded-full transition-all duration-300 hover:scale-110 ${
                   isScrolled 
@@ -163,7 +163,7 @@ const Header: React.FC = () => {
                 }`}
               >
                 {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-              </button>
+              </button> */}
             </nav>
 
             {/* Mobile Controls */}

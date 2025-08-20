@@ -13,7 +13,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/practice-areas/:areaId" element={<PracticeAreaPage />} />
+            <Route path="/Deshmukh&Associates/:areaId" element={<PracticeAreaPage />} />
           </Routes>
         </main>
         <Footer />

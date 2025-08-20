@@ -24,7 +24,7 @@ const CarouselBanner: React.FC = () => {
       subtitle: t('excellenceSubtitle'),
       description: t('excellenceDesc'),
       icon: <Scale className="w-20 h-20 text-golden-400" />,
-      background: "from-white via-gray-50 to-white",
+      background: "from-charcoal via-charcoal-800 to-charcoal",
       pattern: "legal-scales",
       cta: t('scheduleConsultation')
     },
@@ -44,7 +44,7 @@ const CarouselBanner: React.FC = () => {
       subtitle: t('corporateSubtitle'),
       description: t('corporateDesc'),
       icon: <Building className="w-20 h-20 text-golden-400" />,
-      background: "from-white via-gray-50 to-white",
+      background: "from-charcoal via-charcoal-800 to-charcoal",
       pattern: "corporate-building",
       cta: t('businessConsultation')
     },
@@ -144,7 +144,7 @@ const CarouselBanner: React.FC = () => {
                         {slide.icon}
                       </div>
 
-                      <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold mb-5 leading-tight">
+                      <h1 className="text-3xl md:text-5xl lg:text-4xl font-bold mb-5 leading-tight">
                         <span className={slide.background.includes('white') ? 'text-black' : 'text-gold'}>
                           {language === 'mr' ? 'देशमुख' : 'Deshmukh'}
                         </span>
