@@ -1,5 +1,6 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FaSearchPlus, FaTimes } from 'react-icons/fa';
 import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram, Scale } from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
 import locationCard from '../../assets/team/locationCard.jpeg';
@@ -9,6 +10,7 @@ import locationCard3 from '../../assets/team/locationCard3.jpeg';
 const Footer: React.FC = () => {
   const navigate = useNavigate();
   const { t, language } = useTranslation();
+  const [selectedImg, setSelectedImg] = useState(null);
 
   const practiceAreas = [
     { name: t('civilLaw'), path: '/Deshmukh&Associates/civil-law' },
@@ -127,27 +129,61 @@ const Footer: React.FC = () => {
           
 
           <div className="flex flex-col space-y-6">
+        {[locationCard, locationCard3].map((imgSrc, index) => (
+          <div
+            key={index}
+            className="relative cursor-pointer rounded-lg shadow-lg overflow-hidden"
+            onClick={() => setSelectedImg(imgSrc)}
+          >
             <img
-              src={locationCard}
+              src={imgSrc}
               alt=""
-              className="w-full  mx-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer rounded-lg shadow-lg"
+              className="w-full mx-auto transition-transform duration-300 transform hover:scale-110 rounded-lg"
             />
-            <img
-              src={locationCard3}
-              alt=""
-              className="w-full  mx-auto transition-transform duration-300 transform hover:scale-110 cursor-pointer rounded-lg shadow-lg"
-            />
+            <div
+              className="absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-lg"
+            >
+              <FaSearchPlus className="text-white text-3xl" />
+            </div>
           </div>
+        ))}
+      </div>
+
+      {/* Modal for full-size image */}
+      {selectedImg && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50"
+          onClick={() => setSelectedImg(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white text-3xl"
+            onClick={e => {
+              e.stopPropagation(); // Prevent modal close on button click
+              setSelectedImg(null);
+            }}
+            aria-label="Close image"
+          >
+            <FaTimes />
+          </button>
+          <img
+            src={selectedImg}
+            alt="Selected Location"
+            className="max-h-full max-w-full rounded-lg"
+            onClick={e => e.stopPropagation()} // Prevent modal close on image click
+          />
+        </div>
+      )}
+    
 
 
           {/* Contact Info */}
           <div>
             <h4 className="text-xl font-bold mb-6 text-gold">{t('contactInfo')}</h4>
             <div className="space-y-4">
-              <div className="flex items-start space-x-3">
+              <div className="flex items-start space-x-3 ">
                 <a href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" ><MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" /></a>
                 <div>
-                  <a className="text-gray-300" href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" >
+                  <a className="text-gray-300 hover:text-gold" href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" >
 
                     {t('addressText').split('\n').map((line, index) => (
                       <React.Fragment key={index}>

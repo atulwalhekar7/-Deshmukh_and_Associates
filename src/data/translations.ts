@@ -7,7 +7,7 @@ export const translations = {
     team: 'Team',
     contact: 'Contact',
     freeConsultation: 'Free Consultation',
-    legalExcellence: 'Legal Excellence Since 2008',
+    legalExcellence: 'Legal Excellence Since 2019',
     emergencySupport: '24/7 Emergency Legal Support',
     
     // Hero/Carousel
