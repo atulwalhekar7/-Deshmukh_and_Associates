@@ -40,13 +40,13 @@ const Services: React.FC = () => {
     },
     {
       icon: <LocalDiningIcon className="w-12 h-12 text-golden-500" />,
-      title: t('consumarLaw'),
+      title: t('consumerLaw'),
       description: t('consumerDesc'),
       path: "/Deshmukh&Associates/consumer-law"
     },
     {
       icon: <LaptopIcon className="w-12 h-12 text-golden-500" />,
-      title: t('corporate and commercial Law'),
+      title: t('corporateandcommercialLaw'),
       description: t('corporateandcommercialLawDesc'),
       path: "/Deshmukh&Associates/corporateandcommercial-Law"
     },
