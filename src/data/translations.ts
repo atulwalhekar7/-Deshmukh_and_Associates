@@ -150,7 +150,12 @@ export const translations = {
     scheduleFreeConsultation: 'Schedule Free Consultation',
     exploreOtherServices: 'Explore Other Services',
     practiceAreaNotFound: 'Practice Area Not Found',
-    returnHome: 'Return Home'
+    returnHome: 'Return Home',
+
+    //Gallery
+    gallery:'Gallery',
+    viewMore:'See More',
+    goBack:'Go Back'
   },
   mr: {
     // Header
@@ -235,12 +240,12 @@ export const translations = {
     seniorPartner: 'वरिष्ठ भागीदार',
     partner: 'भागीदार',
     associate: 'सहयोगी',
-    associateAdvocate:'सहयोगी अधिवक्ता',
-    seniorAssociate:'वरिष्ठ एसोसिएट',
+    associateAdvocate:'सहकारी वकील',
+    seniorAssociate:'वरिष्ठ सहकारी',
     civilProperty: 'दिवाणी आणि मालमत्ता कायदा',
     criminalFamily: 'फौजदारी आणि कौटुंबिक कायदा',
-    civilCriminal: 'सिविलक्रिमिनल',
-    propertyRealEstate:'संपत्तिअचल संपत्ति',
+    civilCriminal: 'नागरी आणि फौजदारी नोंदणी',
+    propertyRealEstate:'मालमत्ता आणि रिअल इस्टेट वाद',
     corporateCommercial: 'कॉर्पोरेट आणि व्यावसायिक कायदा',
     viewProfile: 'संपूर्ण प्रोफाइल पहा',
     
@@ -255,14 +260,14 @@ export const translations = {
     getInTouch: 'संपर्कात रहा',
     contactDesc: 'तुमच्या कायदेशीर गरजांवर चर्चा करण्यास तयार आहात? आज सल्लामसलतीसाठी आमच्याशी संपर्क साधा.',
     name: 'नाव',
-    yourName:'आपका नाम',
-    emailAddresss: 'आपका ईमेल पता',
+    yourName:'तुमचे नाव',
+    emailAddresss: 'तुमचा ईमेल पत्ता',
     email: 'ईमेल',
     message: 'संदेश',
     sendMessage: 'संदेश पाठवा',
     address: 'पत्ता',
     phone: 'फोन',
-    addressText: 'म्हालस्कर कॉम्प्लेक्स, तलाठी कार्यालय के पास, पाटिलवाड़ा वडगांव ताल.मावल,जिला.पुणे-४१२१०६',
+    addressText: 'महालसकर कॉम्प्लेक्स, तालाठी कार्यालयाजवळ, पाटीलवाडा, वडगांव तालुका मावळ, जिल्हा पुणे - ४१२१०६',
     phoneNumber: '+९१-९८७६५-४३२१०',
     emailAddress: 'info@deshmukhlaw.com',
     
@@ -302,7 +307,12 @@ export const translations = {
     scheduleFreeConsultation: 'मोफत सल्लामसलत नियोजित करा',
     exploreOtherServices: 'इतर सेवा एक्सप्लोर करा',
     practiceAreaNotFound: 'कायदेशीर क्षेत्र सापडले नाही',
-    returnHome: 'मुख्यपृष्ठावर परत'
+    returnHome: 'मुख्यपृष्ठावर परत',
+
+    //Gallery
+    gallery:' प्रदर्शन',
+    viewMore:'अधिक पहा',
+    goBack:'परत जा'
   }
 };
 

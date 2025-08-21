@@ -54,7 +54,7 @@ const Services: React.FC = () => {
       icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
       title: t('environmentLow'),
       description: t('environmentLowDesc'),
-      path: "/Deshmukh&Associates/environment-Law"
+      path: "/Deshmukh&Associates/environment-Low"
     },
     {
       icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,
@@ -86,7 +86,7 @@ const Services: React.FC = () => {
               key={index}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 group hover:-translate-y-4 transform animate-fade-in-up border border-transparent hover:border-gold cursor-pointer"
               style={{ animationDelay: `${index * 0.1}s` }}
-              onClick={() => navigate(service.path)}
+              onClick={() => { window.scrollTo(0,0); navigate(service.path)}}
             >
               <div className="mb-6 group-hover:scale-125 transition-transform duration-500 group-hover:rotate-12">
                 {React.cloneElement(service.icon, { className: "w-12 h-12 text-gold" })}
