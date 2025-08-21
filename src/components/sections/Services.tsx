@@ -18,49 +18,49 @@ const Services: React.FC = () => {
       icon: <Scale className="w-12 h-12 text-golden-500" />,
       title: t('civilLaw'),
       description: t('civilDesc'),
-      path: "/practice-areas/civil-law"
+      path: "/Deshmukh&Associates/civil-law"
     },
     {
       icon: <Gavel className="w-12 h-12 text-golden-500" />,
       title: t('criminalLaw'),
       description: t('criminalLawDesc'),
-      path: "/practice-areas/criminal-law"
+      path: "/Deshmukh&Associates/criminal-law"
     },
     {
       icon: <Building className="w-12 h-12 text-golden-500" />,
       title: t('corporateLaw'),
       description: t('corporateLawDesc'),
-      path: "/practice-areas/corporate-law"
+      path: "/Deshmukh&Associates/corporate-law"
     },
     {
       icon: <Home className="w-12 h-12 text-golden-500" />,
       title: t('propertyLaw'),
       description: t('propertyDesc'),
-      path: "/practice-areas/property-law"
+      path: "/Deshmukh&Associates/property-law"
     },
     {
       icon: <LocalDiningIcon className="w-12 h-12 text-golden-500" />,
       title: t('consumarLaw'),
       description: t('consumerDesc'),
-      path: "/practice-areas/consumer-law"
+      path: "/Deshmukh&Associates/consumer-law"
     },
     {
       icon: <LaptopIcon className="w-12 h-12 text-golden-500" />,
       title: t('corporate and commercial Law'),
       description: t('corporateandcommercialLawDesc'),
-      path: "/practice-areas/corporateandcommercial-Law"
+      path: "/Deshmukh&Associates/corporateandcommercial-Law"
     },
     {
       icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
       title: t('environmentLow'),
       description: t('environmentLowDesc'),
-      path: "/practice-areas/environment-Low"
+      path: "/Deshmukh&Associates/environment-Law"
     },
     {
       icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,
       title: t('insuranceLaw'),
       description: t('insuranceLawDesc'),
-      path: "/practice-areas/insurance-Law"
+      path: "/Deshmukh&Associates/insurance-Law"
     }
   ];
 

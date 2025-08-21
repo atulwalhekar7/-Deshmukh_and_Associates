@@ -2,41 +2,38 @@ import * as React from 'react';
 import {
   ImageList,
   ImageListItem,
-  Button,
-  Typography,
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 // ✅ Import images
-import p1 from '../../assets/team/p1.avif';
-import p2 from '../../assets/team/p2.jpg';
-import p3 from '../../assets/team/p3.jpg';
-import p4 from '../../assets/team/p4.jpg';
-import p5 from '../../assets/team/p5.jpg';
+import p1 from '../../assets/team/gallery20.jpg';
+import p2 from '../../assets/team/gallery21.jpg';
+import p3 from '../../assets/team/gallery23.jpg';
+import p4 from '../../assets/team/gallery24.jpg';
+import p5 from '../../assets/team/gallery25.jpg';
 
 export default function ProfileImageGrid() {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm')); // <600px
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/Deshmukh&Associates/GalleryPage');
+    window.scrollTo(0,0);
+  };
 
   return (
     <>
       <br />
       <br />
 
-      <Typography
-  variant="h4"
-  sx={{
-    fontWeight: 'bold',
-    fontFamily: 'Georgia, serif', // Matches the serif style in the image
-    color: '#c49b1a',             // Golden tone like the image
-    textAlign: 'center',
-    marginBottom: 2,
-    letterSpacing: '0.5px',       // Optional: slight spacing
-  }}
->
-  Gallery
-</Typography>
+      <h2 className="text-4xl text-center font-bold text-white mb-4">
+            <span className="text-gold">
+              Gallery
+            </span>
+          </h2>
 
       <br />
 
@@ -90,7 +87,12 @@ export default function ProfileImageGrid() {
           }
         `}
       </style>
-    </>
+      <div className='flex justify-center mb-5'>
+        <button onClick={handleClick} className="bg-gold  hover:bg-gold-600 text-black px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105">
+          View More
+        </button>
+      </div>
+   </>
   );
 }
 

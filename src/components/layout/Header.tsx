@@ -87,7 +87,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center px-4 py-5">
             {/* Logo */}
             <div className="flex-shrink-0 cursor-pointer" onClick={() => handleNavigation('/')}>
-              <a href='#home'><h1  className={`text-2xl font-bold transition-all duration-300 ${
+              <a href='#home'><h1  className={`text-1.5xl md:text-2xl font-bold transition-all duration-300 ${
                 isScrolled 
                   ? 'text-white' 
                   : 'text-white'
@@ -154,7 +154,7 @@ const Header: React.FC = () => {
               </button>
               
               {/* Dark Mode Toggle */}
-              <button
+              {/* <button
                 onClick={toggleDarkMode}
                 className={`p-3 rounded-full transition-all duration-300 hover:scale-110 ${
                   isScrolled 
@@ -163,7 +163,7 @@ const Header: React.FC = () => {
                 }`}
               >
                 {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-              </button>
+              </button> */}
             </nav>
 
             {/* Mobile Controls */}
@@ -180,7 +180,7 @@ const Header: React.FC = () => {
                 <span className="text-xs font-medium">{language === 'en' ? 'मर' : 'EN'}</span>
               </button>
               
-              <button
+              {/* <button
                 onClick={toggleDarkMode}
                 className={`p-2 rounded-full transition-all duration-300 ${
                   isScrolled 
@@ -189,7 +189,7 @@ const Header: React.FC = () => {
                 }`}
               >
                 {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-              </button>
+              </button> */}
               
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
