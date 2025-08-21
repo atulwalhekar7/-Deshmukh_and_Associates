@@ -9,16 +9,16 @@ const About = () => {
             <img
               src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg"
               alt="Law firm office"
-              className="w-full h-96 object-cover rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105"
+            className="w-full h-96 object-cover rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105"
             />
           </div>
           <div className="animate-fade-in-right">
             <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-6">
               <span className="bg-gradient-to-r from-rose-gold-500 to-rose-gold-600 bg-clip-text text-transparent">
-                We Are 
+               We Are 
               </span>
             </h2>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+           <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
               Deshmukh & Associates is a full-service law firm based in Pune, with over 15 years of 
               experience in civil, criminal, corporate, and property law. We are dedicated to providing 
               exceptional legal services with integrity, professionalism, and a deep commitment to our 
