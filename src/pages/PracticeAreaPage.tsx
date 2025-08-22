@@ -58,15 +58,7 @@ const PracticeAreaPage: React.FC = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <button
-                  onClick={scrollToContact}
-                  className="bg-gold hover:bg-gold-600 text-black px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                >
-                  {t('getLegalConsultation')}
-                </button>
-                <button className="border-2 border-gold text-gold hover:bg-gold hover:text-black px-8 py-4 rounded-lg font-bold transition-all duration-300">
-                  {t('downloadBrochure')}
-                </button>
+               
               </div>
             </div>
             
@@ -82,7 +74,7 @@ const PracticeAreaPage: React.FC = () => {
                     <div className="text-gray-300">{t('successRate')}</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gold mb-2">{language === 'mr' ? '५००+' : '500+'}</div>
+                    <div className="text-3xl font-bold text-gold mb-2">{language === 'mr' ? '१००+' : '100+'}</div>
                     <div className="text-gray-300">{t('casesWon')}</div>
                   </div>
                   <div>
@@ -125,6 +117,7 @@ const PracticeAreaPage: React.FC = () => {
                 <button className="mt-6 text-gold font-semibold hover:text-gold-600 transition-all duration-300 group-hover:translate-x-2">
                   {t('learnMore')} →
                 </button>
+
               </div>
             ))}
           </div>
