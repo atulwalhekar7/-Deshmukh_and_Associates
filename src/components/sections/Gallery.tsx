@@ -31,7 +31,7 @@ export default function ProfileImageGrid() {
   };
 
   return (
-    <>
+    <section id="gallery">
       <br />
       <br />
 
@@ -151,7 +151,7 @@ export default function ProfileImageGrid() {
           />
         </div>
       )}
-    </>
+    </section>
   );
 }
 

@@ -16,7 +16,7 @@ const About: React.FC = () => {
             <img
               src= { A1 }
               alt="Law firm office"
-              className="w-full h-[500px] object-cover rounded-xl shadow-2xl hover:shadow-gold/20 transition-all duration-500 hover:scale-105"
+              className="w-full h-[505px] object-cover rounded-xl shadow-2xl hover:shadow-gold/20 transition-all duration-500 hover:scale-105"
             />
           </div>
 

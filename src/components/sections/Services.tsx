@@ -52,9 +52,9 @@ const Services: React.FC = () => {
     },
     {
       icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
-      title: t('environmentLow'),
-      description: t('environmentLowDesc'),
-      path: "/Deshmukh&Associates/environment-Low"
+      title: t('environmentLaw'),
+      description: t('environmentLawDesc'),
+      path: "/Deshmukh&Associates/environment-Law"
     },
     {
       icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,

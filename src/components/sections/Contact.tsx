@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import { useTranslation } from '../../hooks/useTranslation';
+import emailjs from 'emailjs-com'
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
@@ -21,12 +22,24 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
-    alert(t('language') === 'mr' ? 'तुमच्या संदेशाबद्दल धन्यवाद. आम्ही लवकरच तुमच्याशी संपर्क साधू!' : 'Thank you for your message. We will get back to you soon!');
+    emailjs.send(
+      'service_0mcts9s',    
+      'template_lu098gq',     
+      formData,
+      'h9MsXYabq8Hq16INN'        
+    )
+      .then(() => {
+        alert(t('language') === 'mr' ? 'तुमच्या संदेशाबद्दल धन्यवाद. आम्ही लवकरच तुमच्याशी संपर्क साधू!' : 'Thank you for your message. We will get back to you soon!');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        console.error('Failed to send email:', error);
+        alert('Failed to send message. Please try again later.');
+      });
   };
+  // Handle form submission here
+  console.log('Form submitted:', formData);
+
 
   return (
     <section id="contact" className="py-24 bg-charcoal transition-colors duration-500">
@@ -41,7 +54,7 @@ const Contact: React.FC = () => {
             {t('contactDesc')}
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact Form */}
           <div className="animate-fade-in-up">
@@ -61,7 +74,7 @@ const Contact: React.FC = () => {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300 bg-white text-black"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                   {t('email')}
@@ -70,14 +83,14 @@ const Contact: React.FC = () => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder= {t('emailAddresss')}
+                  placeholder={t('emailAddresss')}
                   value={formData.email}
                   onChange={handleInputChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300 bg-white text-black"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-white mb-2">
                   {t('message')}
@@ -93,7 +106,7 @@ const Contact: React.FC = () => {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300 resize-none bg-white text-black"
                 ></textarea>
               </div>
-              
+
               <button
                 type="submit"
                 className="w-full bg-gold hover:bg-gold-600 text-black px-6 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
@@ -102,7 +115,7 @@ const Contact: React.FC = () => {
               </button>
             </form>
           </div>
-          
+
           {/* Contact Information */}
           <div className="animate-fade-in-right">
             <div className="space-y-8">
@@ -120,7 +133,7 @@ const Contact: React.FC = () => {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <Phone className="w-6 h-6 text-gold mt-1" />
                 <div>
@@ -128,7 +141,7 @@ const Contact: React.FC = () => {
                   <p className="text-white">{t('phoneNumber')}</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <Mail className="w-6 h-6 text-gold mt-1" />
                 <div>
@@ -137,7 +150,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Map placeholder */}
             {/* <div className="mt-12 bg-gray-200 h-64 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300">
               <p className="text-gray-500">Google Maps Integration</p>

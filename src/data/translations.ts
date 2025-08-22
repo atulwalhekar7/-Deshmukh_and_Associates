@@ -5,6 +5,7 @@ export const translations = {
     about: 'About',
     practiceAreas: 'Practice Areas',
     team: 'Team',
+    gallery:'Gallery',
     contact: 'Contact',
     freeConsultation: 'Free Consultation',
     legalExcellence: 'Legal Excellence Since 2019',
@@ -61,8 +62,8 @@ export const translations = {
     consumerDesc:'its is low created for consumer sequrity',
     corporateandcommercialLaw:'corporate and commercial Law',
     corporateandcommercialLawDesc:'deals with the creation,structure,and goverance of companies',
-    environmentLow:'environment Law',
-    environmentLowDesc:'environmental low is the set of rules ,regulations,and principle that protect the environment.',
+    environmentLaw:'environment Law',
+    environmentLawDesc:'environmental low is the set of rules ,regulations,and principle that protect the environment.',
     insuranceLaw:'insurance Law',
     insuranceLawDesc:'insurance law is the branch of low that deals with agreements btween an insurance company',
     
@@ -97,7 +98,7 @@ export const translations = {
     testimonial1: 'Good Service, Professional Advice Good in Criminal and Civil Cases and also good services in registration of various documents Please visit.',
     testimonial2: 'I highly recommend Deshmukh associates to anyone in need of a skilled lawyer who can effectively manage both criminal and civil cases.Thanks to Harshad, Kajal and team keep it up.',
     testimonial3: 'For both civil and criminal cases, I recommend that you look here for your best advocate and greatest result.',
-    testimonial4: 'Good Service, Professional Advice Good in Criminal and Civil Cases Please visit 🙏❤️',
+    testimonial4: 'Good Service, Professional Advice Good in Criminal and Civil Cases Please visit.',
     
     // Contact
     getInTouch: 'Get In Touch',
@@ -136,7 +137,7 @@ export const translations = {
     successRate1: 'Success Rate',
     casesWon: 'Cases Won',
     support: 'Support',
-    ourServices: 'Our {area} Services',
+    ourServices: 'Our More Services',
     servicesDesc: 'Comprehensive legal services tailored to your specific needs in {area}.',
     whyChooseTeam: 'Why Choose Our {area} Team?',
     provenExpertise: 'Proven Expertise',
@@ -149,6 +150,7 @@ export const translations = {
     readyDesc: 'Don\'t wait. Contact our expert {area} team today for a free consultation and let us help you achieve the best possible outcome for your case.',
     scheduleFreeConsultation: 'Schedule Free Consultation',
     exploreOtherServices: 'Explore Other Services',
+    callUs:'Call Us',
     practiceAreaNotFound: 'Practice Area Not Found',
     returnHome: 'Return Home',
 
@@ -218,8 +220,8 @@ export const translations = {
     consumerDesc: 'हा कायदा ग्राहकांच्या सुरक्षिततेसाठी तयार करण्यात आलेला आहे.',
     corporateandcommercialLaw:'कॉर्पोरेट आणि व्यावसायिक कायदा',
     corporateandcommercialLawDesc:'कंपन्यांची निर्मिती, रचना आणि कारभार (शासन) यांच्याशी संबंधित आहे.',
-    environmentLow:'पर्यावरण कायदा',
-    environmentLowDesc:'पर्यावरण कायदा म्हणजे पर्यावरणाचे संरक्षण करणारे नियम, नियमावली आणि तत्त्वांचा संच आहे.',
+    environmentLaw:'पर्यावरण कायदा',
+    environmentLawDesc:'पर्यावरण कायदा म्हणजे पर्यावरणाचे संरक्षण करणारे नियम, नियमावली आणि तत्त्वांचा संच आहे.',
     insuranceLaw:'विमा कायदा',
     insuranceLawDesc:'विमा कायदा हा कायद्याचा तो भाग आहे जो विमा कंपनी आणि ग्राहक यामधील करारांशी संबंधित असतो.',
     
@@ -255,7 +257,7 @@ export const translations = {
     testimonial1: 'चांगली सेवा, व्यावसायिक सल्ला. फौजदारी आणि नागरी प्रकरणांमध्ये चांगले व अनुभवजन्य सल्ले देतात. विविध दस्तऐवजांची नोंदणी करण्यातील सेवा देखील चांगली आहे. कृपया भेट द्या.',
     testimonial2: 'मी देशमुख असोसिएट्सना कोणत्याही व्यक्तीसाठी शिफारस करतो ज्यांना फौजदारी आणि नागरी प्रकरणे प्रभावीपणे हाताळणारा कुशल वकील हवा आहे. हर्षद, काजल आणि त्यांच्या टीमला धन्यवाद, अशीच कामगिरी ठेवा.',
     testimonial3: 'फौजदारी आणि नागरी प्रकरणांसाठी, तुमच्या उत्तम वकिलासाठी आणि सर्वोत्तम निकालासाठी येथे पहा.',
-    testimonial4: 'चांगली सेवा, व्यावसायिक सल्ला. फौजदारी आणि नागरी प्रकरणांमध्ये चांगले. कृपया भेट द्या. 🙏❤️',
+    testimonial4: 'चांगली सेवा, व्यावसायिक सल्ला. फौजदारी आणि नागरी प्रकरणांमध्ये चांगले. कृपया भेट द्या.',
     // Contact
     getInTouch: 'संपर्कात रहा',
     contactDesc: 'तुमच्या कायदेशीर गरजांवर चर्चा करण्यास तयार आहात? आज सल्लामसलतीसाठी आमच्याशी संपर्क साधा.',
