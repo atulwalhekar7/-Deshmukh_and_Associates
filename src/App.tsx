@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import PracticeAreaPage from './pages/PracticeAreaPage';
 import GalleryPage from './pages/GalleryPage';
 
+
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
             <Route path="/Deshmukh&Associates/:areaId" element={<PracticeAreaPage />} />
             <Route path="/Deshmukh&Associates/GalleryPage" element={<GalleryPage />} />
           </Routes>
+          
         </main>
         <Footer />
       </div>

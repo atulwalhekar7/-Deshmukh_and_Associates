@@ -15,7 +15,7 @@ export const practiceAreas: PracticeArea[] = [
       'Civil Appeals',
       'Injunction Proceedings'
     ],
-    experience: '15+ Years',
+    experience: '5+ Years',
     successRate: '92%'
   },
   {
@@ -32,7 +32,7 @@ export const practiceAreas: PracticeArea[] = [
       'DUI Defense',
       'Appeals & Post-Conviction'
     ],
-    experience: '12+ Years',
+    experience: '5+ Years',
     successRate: '89%'
   },
   {
@@ -49,7 +49,7 @@ export const practiceAreas: PracticeArea[] = [
       'Employment Law',
       'Intellectual Property'
     ],
-    experience: '18+ Years',
+    experience: '5+ Years',
     successRate: '95%'
   },
   {
@@ -66,7 +66,7 @@ export const practiceAreas: PracticeArea[] = [
       'Construction Law',
       'Property Development'
     ],
-    experience: '20+ Years',
+    experience: '5+ Years',
     successRate: '94%'
   },
   {
@@ -76,14 +76,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: 'Gavel',
     fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
     services: [
-      'White Collar Crimes',
-      'Drug Offenses',
-      'Assault & Battery',
+      'Right to Safety',
+      'Right to Choose',
+      'Product Liability',
       'Theft & Fraud',
-      'DUI Defense',
-      'Appeals & Post-Conviction'
+      'Protection from Unfair Practices',
+      'Consumer Education'
     ],
-    experience: '12+ Years',
+    experience: '5+ Years',
     successRate: '89%'
   },
     {
@@ -93,14 +93,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: 'Gavel',
     fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
     services: [
-      'White Collar Crimes',
-      'Drug Offenses',
-      'Assault & Battery',
-      'Theft & Fraud',
-      'DUI Defense',
-      'Appeals & Post-Conviction'
+      'Contract Drafting & Review',
+      'usiness Formation & Corporate Structuring',
+      'Mergers & Acquisitions (M&A)',
+      'Regulatory Compliance & Corporate Governance',
+      'Intellectual Property Protection',
+      'Dispute Resolution & Litigation'
     ],
-    experience: '12+ Years',
+    experience: '5+ Years',
     successRate: '89%'
   },
   {
@@ -110,14 +110,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: 'Gavel',
     fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
     services: [
-      'White Collar Crimes',
-      'Drug Offenses',
-      'Assault & Battery',
-      'Theft & Fraud',
-      'DUI Defense',
-      'Appeals & Post-Conviction'
+      'Pollution Control and Regulation',
+      'Environmental Permits and Clearances',
+      'Waste Management and Recycling Laws',
+      'Wildlife and Forest Conservation',
+      'Climate Change and Sustainability Regulations',
+      'Legal Action and Public Interest Litigation (PIL)'
     ],
-    experience: '12+ Years',
+    experience: '5+ Years',
     successRate: '89%'
   },
   {
@@ -127,14 +127,14 @@ export const practiceAreas: PracticeArea[] = [
     icon: 'Gavel',
     fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
     services: [
-      'White Collar Crimes',
-      'Drug Offenses',
-      'Assault & Battery',
-      'Theft & Fraud',
-      'DUI Defense',
-      'Appeals & Post-Conviction'
+      'Policy Drafting and Review',
+      'Claims Handling and Settlement',
+      'Regulatory Compliance',
+      'Fraud Detection and Prevention',
+      'Dispute Resolution and Litigation',
+      'Reinsurance and Risk Management'
     ],
-    experience: '12+ Years',
+    experience: '5+ Years',
     successRate: '89%'
   },
 ];

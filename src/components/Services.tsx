@@ -52,7 +52,7 @@ const Services = () => {
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4">{service.title}</h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{service.description}</p>
               <button className="mt-6 text-rose-gold-500 font-semibold hover:text-rose-gold-600 transition-all duration-300 group-hover:translate-x-2">
-                Read More →
+                read More →
               </button>
             </div>
           ))}

@@ -69,7 +69,7 @@ export const translations = {
     // Why Choose Us
     whyChooseUs: 'Why Choose Us',
     whyChooseDesc: 'Our commitment to excellence and client satisfaction sets us apart in the legal industry.',
-    experience: '15+ Years of Experience',
+    experience: '5+ Years of Experience',
     experienceDesc: 'Proven track record with extensive experience across multiple legal domains.',
     transparent: 'Transparent Legal Process',
     transparentDesc: 'Clear communication and transparent billing with no hidden costs or surprises.',
@@ -227,7 +227,7 @@ export const translations = {
     // Why Choose Us
     whyChooseUs: 'आम्हाला का निवडावे',
     whyChooseDesc: 'उत्कृष्टता आणि क्लायंट समाधानासाठी आमची वचनबद्धता आम्हाला कायदेशीर उद्योगात वेगळे ठेवते.',
-    experience: '१५+ वर्षांचा अनुभव',
+    experience: '५+ वर्षांचा अनुभव',
     experienceDesc: 'अनेक कायदेशीर क्षेत्रांमध्ये व्यापक अनुभवासह सिद्ध ट्रॅक रेकॉर्ड.',
     transparent: 'पारदर्शी कायदेशीर प्रक्रिया',
     transparentDesc: 'कोणतेही छुपे खर्च किंवा आश्चर्य नसताना स्पष्ट संवाद आणि पारदर्शी बिलिंग.',

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const About = () => {
   return (
     <section id="about" className="py-24 bg-white dark:bg-slate-900 transition-colors duration-500">
