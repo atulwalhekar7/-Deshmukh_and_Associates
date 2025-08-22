@@ -95,8 +95,8 @@ const Header: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center px-4 py-5">
             {/* Logo */}
-           <div className="flex items-center gap-2">
-             <a href="#home"><img  src={logo} alt="logo" className="rounded-full w-12 h-12 object-cover" /></a>
+           <div className="flex items-center gap-2 flex-shrink-0 mr-4 ml-[-1rem] sm:ml-0">
+             <a href="#home"><img  src={logo} alt="logo" className="rounded-full w-12 h-12 ml-2 object-cover sm:w-14 sm:h-14 md:w-16 md:h-16 min-w-[48px] min-h-[48px]" /></a>
              <div className="flex-shrink-0 cursor-pointer ml-0" onClick={() => handleNavigation('/')}>
               <a href='#home'><h1 className={`text-1.5xl md:text-2xl font-bold transition-all duration-300 ${isScrolled
                 ? 'text-white'
@@ -182,11 +182,11 @@ const Header: React.FC = () => {
             </nav>
 
             {/* Mobile Controls */}
-            <div className="lg:hidden flex items-center space-x-3">
+            <div className="lg:hidden flex items-center space-x-7">
               {/* Language Toggle */}
               <button
                 onClick={handleClick}
-                className={`flex items-center  space-x-2 p-1 rounded-full transition-all duration-300 hover:scale-110 ${isScrolled
+                className={`flex items-center  space-x-1 p-1 rounded-full transition-all duration-300 hover:scale-110 ${isScrolled
                   ? 'text-white hover:bg-gold/20'
                   : 'text-white hover:bg-white/10'
                   }`}
@@ -214,7 +214,7 @@ const Header: React.FC = () => {
 
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className={`p-2 rounded-md transition-all duration-300 ${isScrolled
+                className={`p-2 rounded-md transition-all duration-300 ixed top-4 right-4 z-50 ${isScrolled
                   ? 'text-white'
                   : 'text-white'
                   }`}
