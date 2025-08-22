@@ -4,13 +4,16 @@ import { Menu, X, Phone, Mail, MapPin, Languages } from 'lucide-react';
 // import { ThemeController } from '../../controllers/ThemeController';
 import { NavigationController } from '../../controllers/NavigationController';
 import { useTranslation } from '../../hooks/useTranslation';
-import E2M from '../../assets/team/E2M.png'
+import E2M from '../../assets/team/E2M.png';
+import M2E from '../../assets/team/M2E.png';
+
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   // const [isDarkMode, setIsDarkMode] = useState(true);
   const { t, language, toggleLanguage } = useTranslation();
+  const [showE2M, setShowE2M] = useState(true);
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -34,6 +37,11 @@ const Header: React.FC = () => {
   //   themeController.toggleTheme();
   //   setIsDarkMode(themeController.isDark);
   // };
+
+  const handleClick = () => {
+    setShowE2M(!showE2M);
+    toggleLanguage();
+  }
 
   const handleNavigation = (path: string, sectionId?: string) => {
     if (path === '/') {
@@ -80,16 +88,17 @@ const Header: React.FC = () => {
 
       {/* Main Header */}
       <header className={`fixed top-0 w-full z-50 transition-all duration-500 ${isScrolled
-          ? 'bg-charcoal/95 backdrop-blur-md shadow-2xl shadow-gold/10 mt-0'
-          : 'bg-transparent mt-10'
+        ? 'bg-charcoal/95 backdrop-blur-md shadow-2xl shadow-gold/10 mt-0'
+        : 'bg-transparent mt-10'
         }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center px-4 py-5">
             {/* Logo */}
             <div className="flex-shrink-0 cursor-pointer" onClick={() => handleNavigation('/')}>
+
               <a href='#home'><h1 className={`text-1.5xl md:text-2xl font-bold transition-all duration-300 ${isScrolled
-                  ? 'text-white'
-                  : 'text-white'
+                ? 'text-white'
+                : 'text-white'
                 }`}>
                 <span className="text-gold">
                   {language === 'mr' ? 'देशमुख' : 'Deshmukh'}
@@ -99,8 +108,8 @@ const Header: React.FC = () => {
                 </span>
               </h1></a>
               <p className={`text-sm font-medium mt-1 ${isScrolled
-                  ? 'text-gold'
-                  : 'text-gold'
+                ? 'text-gold'
+                : 'text-gold'
                 }`}>
                 {t('legalExcellence')}
               </p>
@@ -119,9 +128,9 @@ const Header: React.FC = () => {
                   key={item.name}
                   onClick={() => handleNavigation(item.path, item.sectionId)}
                   className={`text-base font-semibold hover:text-golden-400 transition-all duration-300 relative group ${isActive(item.path) ? 'text-gold' :
-                      isScrolled
-                        ? 'text-white'
-                        : 'text-white'
+                    isScrolled
+                      ? 'text-white'
+                      : 'text-white'
                     }`}
                 >
                   {item.name}
@@ -139,19 +148,20 @@ const Header: React.FC = () => {
 
               {/* Language Toggle */}
               <button
-                onClick={toggleLanguage}
-                className={`flex items-center space-x-2 p-1 rounded-full transition-all duration-300 hover:scale-110 ${isScrolled
-                    ? 'text-white hover:bg-gold/20'
-                    : 'text-white hover:bg-white/10'
+                onClick={handleClick}
+                className={`flex items-center  space-x-2 p-1 rounded-full transition-all duration-300 hover:scale-110 ${isScrolled
+                  ? 'text-white hover:bg-gold/20'
+                  : 'text-white hover:bg-white/10'
                   }`}
               >
                 {/* <Languages className="w-5 h-5" /> */}
                 <img
-                  src= {E2M}
+                  src={showE2M ? E2M : M2E}
                   alt="English to Marathi Icon"
                   className="w-14 h-12"
                 />
-                <span className="text-sm font-medium">{language === 'en' ? 'मर' : 'EN'}</span>
+                <span className={`text-sm font-medium transition-colors duration-300 ${showE2M ? 'text-white' : 'text-gold'
+                  }`}>{language === 'en' ? 'मराठी' : 'ENGLISH'}</span>
               </button>
 
               {/* Dark Mode Toggle */}
@@ -169,20 +179,22 @@ const Header: React.FC = () => {
 
             {/* Mobile Controls */}
             <div className="lg:hidden flex items-center space-x-3">
+              {/* Language Toggle */}
               <button
-                onClick={toggleLanguage}
-                className={`flex items-center space-x-1 p-2 rounded-full transition-all duration-300 ${isScrolled
-                    ? 'text-white'
-                    : 'text-white'
+                onClick={handleClick}
+                className={`flex items-center  space-x-2 p-1 rounded-full transition-all duration-300 hover:scale-110 ${isScrolled
+                  ? 'text-white hover:bg-gold/20'
+                  : 'text-white hover:bg-white/10'
                   }`}
               >
-                {/* <Languages className="w-4 h-4" /> */}
+                {/* <Languages className="w-5 h-5" /> */}
                 <img
-                  src= {E2M}
+                  src={showE2M ? E2M : M2E}
                   alt="English to Marathi Icon"
                   className="w-14 h-12"
                 />
-                <span className="text-xs font-medium">{language === 'en' ? 'मर' : 'EN'}</span>
+                <span className={`text-sm font-medium transition-colors duration-300 ${showE2M ? 'text-white' : 'text-gold'
+                  }`}>{language === 'en' ? 'मराठी' : 'ENGLISH'}</span>
               </button>
 
               {/* <button
@@ -199,8 +211,8 @@ const Header: React.FC = () => {
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className={`p-2 rounded-md transition-all duration-300 ${isScrolled
-                    ? 'text-white'
-                    : 'text-white'
+                  ? 'text-white'
+                  : 'text-white'
                   }`}
               >
                 {isMenuOpen ? <X size={28} /> : <Menu size={28} />}

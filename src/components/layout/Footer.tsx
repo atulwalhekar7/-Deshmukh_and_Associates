@@ -16,7 +16,11 @@ const Footer: React.FC = () => {
     { name: t('civilLaw'), path: '/Deshmukh&Associates/civil-law' },
     { name: t('criminalLaw'), path: '/Deshmukh&Associates/criminal-law' },
     { name: t('corporateLaw'), path: '/Deshmukh&Associates/corporate-law' },
-    { name: t('propertyLaw'), path: '/Deshmukh&Associates/property-law' }
+    { name: t('propertyLaw'), path: '/Deshmukh&Associates/property-law' },
+    { name: t('consumerLaw'), path: '/Deshmukh&Associates/consumer-law' },
+    { name: t('corporateandcommercialLaw'), path: '/Deshmukh&Associates/corporateandcommercial-Law' },
+    { name: t('environmentLow'), path: '/Deshmukh&Associates/environment-Low' },
+    { name: t('insuranceLaw'), path: '/Deshmukh&Associates/insurance-Law' },
   ];
 
   // const quickLinks = [
@@ -181,9 +185,9 @@ const Footer: React.FC = () => {
             <h4 className="text-xl font-bold mb-6 text-gold">{t('contactInfo')}</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3 ">
-                <a href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" ><MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" /></a>
+                <a href="https://www.google.com/maps/dir//Mhaskar+Complex,+Patil+Wada+Rd,+near+Talathi+Office,+Dhore+Wada,+Vadgaon,+Maharashtra+412106/@18.7394903,73.5571633,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2af00576f9a27:0x8c2364e1889d56c!2m2!1d73.639565!2d18.7395083?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" ><MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" /></a>
                 <div>
-                  <a className="text-gray-300 hover:text-gold" href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank" >
+                  <a className="text-gray-300 hover:text-gold" href="https://www.google.com/maps/dir//Mhaskar+Complex,+Patil+Wada+Rd,+near+Talathi+Office,+Dhore+Wada,+Vadgaon,+Maharashtra+412106/@18.7394903,73.5571633,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2af00576f9a27:0x8c2364e1889d56c!2m2!1d73.639565!2d18.7395083?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" >
 
                     {t('addressText').split('\n').map((line, index) => (
                       <React.Fragment key={index}>

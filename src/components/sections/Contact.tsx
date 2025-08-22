@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
           <div className="animate-fade-in-right">
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <a href="https://www.google.com/maps/place/Talathi+Office/@18.7352047,73.6427133,14.8z/data=!4m10!1m2!2m1!1sMhalaskar+Wadi+Mhalaskar+Complex,Near+Talathi+office,Patilwada+++++++++++++++Vadgaon+Tal.Maval,+++++++++++++++Dist.Pune-412106!3m6!1s0x3bc2ae063b0a7873:0x44008a428254d69c!8m2!3d18.737509!4d73.642767!15sCn5NaGFsYXNrYXIgV2FkaSBNaGFsYXNrYXIgQ29tcGxleCxOZWFyIFRhbGF0aGkgb2ZmaWNlLFBhdGlsd2FkYSAgICAgICAgICAgICAgIFZhZGdhb24gVGFsLk1hdmFsLCAgICAgICAgICAgICAgIERpc3QuUHVuZS00MTIxMDaSAQhidXNfc3RvcOABAA!16s%2Fg%2F1hc1bb8jq?entry=ttu" target="_blank"><MapPin className="w-6 h-6 text-gold mt-1" /></a>
+                <a href="https://www.google.com/maps/dir//Mhaskar+Complex,+Patil+Wada+Rd,+near+Talathi+Office,+Dhore+Wada,+Vadgaon,+Maharashtra+412106/@18.7394903,73.5571633,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2af00576f9a27:0x8c2364e1889d56c!2m2!1d73.639565!2d18.7395083?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><MapPin className="w-6 h-6 text-gold mt-1" /></a>
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">{t('address')}</h3>
                   <p className="text-white">

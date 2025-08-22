@@ -1,10 +1,10 @@
 
-  import React, { useState } from 'react';
+  import React from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
+import A1 from '../../assets/team/gallery29.jpg'
 
 const About: React.FC = () => {
   const { t } = useTranslation();
-  const [showMore, setShowMore] = useState(false);
 
   return (
     <section id="about" className="py-24 bg-white transition-colors duration-500">
@@ -14,9 +14,9 @@ const About: React.FC = () => {
           {/* Left Image */}
           <div className="animate-fade-in-up">
             <img
-              src="https://img.freepik.com/free-vector/gradient-advocate-logo-template_23-2150670338.jpg?t=st=1755672942~exp=1755676542~hmac=7e55bc68fa5bb334e80a4d5cda7bd24b5dd7827462933452132c2af3e747860d&w=1060"
+              src= { A1 }
               alt="Law firm office"
-              className="w-full h-[450px] object-cover rounded-xl shadow-2xl hover:shadow-gold/20 transition-all duration-500 hover:scale-105"
+              className="w-full h-[500px] object-cover rounded-xl shadow-2xl hover:shadow-gold/20 transition-all duration-500 hover:scale-105"
             />
           </div>
 
@@ -29,14 +29,10 @@ const About: React.FC = () => {
             {/* Always visible part */}
             <p className="text-lg text-charcoal mb-2 leading-relaxed">{t('aboutDesc01')}</p>
             <p className="text-lg text-charcoal mb-2 leading-relaxed">{t('aboutDesc1')}</p>
-
-            {/* Read more part (in the middle) */}
-            {showMore && (
-              <>
-                <p className="text-lg text-charcoal mb-1 leading-relaxed">{t('aboutDesc2')}</p>
+                {/* <p className="text-lg text-charcoal mb-1 leading-relaxed">{t('aboutDesc2')}</p> */}
                 <p className="text-lg text-charcoal mb-1 leading-relaxed">{t('aboutDesc3')}</p>
-              </>
-            )}
+              
+            
 
             {/* Always visible: comes AFTER aboutDesc2/3 */}
             <div className="text-right text-charcoal">
@@ -49,12 +45,12 @@ const About: React.FC = () => {
             </div>
 
             {/* Button to toggle */}
-            <button
+            {/* <button
               onClick={() => setShowMore(prev => !prev)}
               className="bg-gold hover:bg-gold-600 text-black px-8 py-4 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 mt-4"
             >
               {showMore ? t('readLess') : t('learnMoreAbout')}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
