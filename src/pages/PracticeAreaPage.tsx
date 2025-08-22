@@ -4,6 +4,10 @@ import { ArrowLeft, CheckCircle, Award, Users, TrendingUp } from 'lucide-react';
 import { practiceAreas } from '../data/practiceAreas';
 import { useTranslation } from '../hooks/useTranslation';
 
+
+
+
+
 const PracticeAreaPage: React.FC = () => {
   const { areaId } = useParams<{ areaId: string }>();
   const navigate = useNavigate();
@@ -87,8 +91,9 @@ const PracticeAreaPage: React.FC = () => {
           </div>
         </div>
       </section>
-
+     
       {/* Services Section */}
+      
       <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -123,50 +128,7 @@ const PracticeAreaPage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Why Choose Us Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-black mb-4">
-              {t('whyChooseTeam', { area: practiceArea.title })}
-            </h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {[
-              {
-                icon: <Award className="w-16 h-16 text-gold" />,
-                title: t('provenExpertise'),
-                description: t('expertiseDesc', { area: practiceArea.title.toLowerCase() })
-              },
-              {
-                icon: <Users className="w-16 h-16 text-gold" />,
-                title: t('clientFocused'),
-                description: t('clientFocusedDesc')
-              },
-              {
-                icon: <TrendingUp className="w-16 h-16 text-gold" />,
-                title: t('resultsDriven'),
-                description: t('resultsDrivenDesc', { successRate: practiceArea.successRate, area: practiceArea.title.toLowerCase() })
-              }
-            ].map((feature, index) => (
-              <div
-                key={index}
-                className="text-center group animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.2}s` }}
-              >
-                <div className="mb-6 flex justify-center group-hover:scale-110 transition-transform duration-300">
-                  {feature.icon}
-                </div>
-                <h3 className="text-2xl font-bold text-black mb-4">{feature.title}</h3>
-                <p className="text-charcoal leading-relaxed">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-br from-charcoal via-charcoal-800 to-charcoal">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -188,7 +150,7 @@ const PracticeAreaPage: React.FC = () => {
               onClick={() => navigate('/')}
               className="border-2 border-gold text-gold hover:bg-gold hover:text-black px-10 py-5 rounded-xl text-lg font-bold transition-all duration-300 transform hover:scale-105"
             >
-              {t('exploreOtherServices')}
+              {t('call us')}
             </button>
           </div>
         </div>

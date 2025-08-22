@@ -3,7 +3,7 @@ import { PracticeArea } from '../types';
 export const practiceAreas: PracticeArea[] = [
   {
     id: 'civil-law',
-    title: 'Civil Law',
+    title: 'civil Law',
     description: 'Comprehensive civil litigation services including contract disputes and tort claims.',
     icon: 'Scale',
     fullDescription: 'Our civil law practice encompasses a wide range of legal matters affecting individuals and businesses. We provide expert representation in contract disputes, property matters, personal injury cases, and complex civil litigation.',
