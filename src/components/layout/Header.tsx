@@ -6,6 +6,7 @@ import { NavigationController } from '../../controllers/NavigationController';
 import { useTranslation } from '../../hooks/useTranslation';
 import E2M from '../../assets/team/E2M.png';
 import M2E from '../../assets/team/M2E.png';
+import logo from '../../assets/team/logo.ico';
 
 
 const Header: React.FC = () => {
@@ -94,8 +95,9 @@ const Header: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center px-4 py-5">
             {/* Logo */}
-            <div className="flex-shrink-0 cursor-pointer" onClick={() => handleNavigation('/')}>
-
+           <div className="flex items-center gap-2">
+             <a href="#home"><img  src={logo} alt="logo" className="rounded-full w-12 h-12 object-cover" /></a>
+             <div className="flex-shrink-0 cursor-pointer ml-0" onClick={() => handleNavigation('/')}>
               <a href='#home'><h1 className={`text-1.5xl md:text-2xl font-bold transition-all duration-300 ${isScrolled
                 ? 'text-white'
                 : 'text-white'
@@ -113,6 +115,7 @@ const Header: React.FC = () => {
                 }`}>
                 {t('legalExcellence')}
               </p>
+             </div>
             </div>
 
             {/* Desktop Navigation */}
@@ -121,7 +124,8 @@ const Header: React.FC = () => {
                 { name: t('home'), path: '/', sectionId: 'home' },
                 { name: t('about'), path: '/', sectionId: 'about' },
                 { name: t('practiceAreas'), path: '/', sectionId: 'services' },
-                { name: t('team'), path: '/', sectionId: 'team' },
+                // { name: t('team'), path: '/', sectionId: 'team' },
+                { name: t('gallery'), path: '/', sectionId: 'gallery' },
                 { name: t('contact'), path: '/', sectionId: 'contact' }
               ].map((item) => (
                 <button
@@ -228,7 +232,8 @@ const Header: React.FC = () => {
                   { name: t('home'), path: '/', sectionId: 'home' },
                   { name: t('about'), path: '/', sectionId: 'about' },
                   { name: t('practiceAreas'), path: '/', sectionId: 'services' },
-                  { name: t('team'), path: '/', sectionId: 'team' },
+                  // { name: t('team'), path: '/', sectionId: 'team' },
+                  { name: t('gallery'), path: '/', sectionId: 'gallery' },
                   { name: t('contact'), path: '/', sectionId: 'contact' }
                 ].map((item) => (
                   <button
