@@ -62,8 +62,8 @@ export const translations = {
     consumerDesc:'its is low created for consumer sequrity',
     corporateandcommercialLaw:'corporate and commercial Law',
     corporateandcommercialLawDesc:'deals with the creation,structure,and goverance of companies',
-    environmentLow:'environment Law',
-    environmentLowDesc:'environmental low is the set of rules ,regulations,and principle that protect the environment.',
+    environmentLaw:'environment Law',
+    environmentLawDesc:'environmental low is the set of rules ,regulations,and principle that protect the environment.',
     insuranceLaw:'insurance Law',
     insuranceLawDesc:'insurance law is the branch of low that deals with agreements btween an insurance company',
     
@@ -137,7 +137,7 @@ export const translations = {
     successRate1: 'Success Rate',
     casesWon: 'Cases Won',
     support: 'Support',
-    ourServices: 'Our {area} Services',
+    ourServices: 'Our More Services',
     servicesDesc: 'Comprehensive legal services tailored to your specific needs in {area}.',
     whyChooseTeam: 'Why Choose Our {area} Team?',
     provenExpertise: 'Proven Expertise',
@@ -150,6 +150,7 @@ export const translations = {
     readyDesc: 'Don\'t wait. Contact our expert {area} team today for a free consultation and let us help you achieve the best possible outcome for your case.',
     scheduleFreeConsultation: 'Schedule Free Consultation',
     exploreOtherServices: 'Explore Other Services',
+    callUs:'Call Us',
     practiceAreaNotFound: 'Practice Area Not Found',
     returnHome: 'Return Home',
 
@@ -219,8 +220,8 @@ export const translations = {
     consumerDesc: 'हा कायदा ग्राहकांच्या सुरक्षिततेसाठी तयार करण्यात आलेला आहे.',
     corporateandcommercialLaw:'कॉर्पोरेट आणि व्यावसायिक कायदा',
     corporateandcommercialLawDesc:'कंपन्यांची निर्मिती, रचना आणि कारभार (शासन) यांच्याशी संबंधित आहे.',
-    environmentLow:'पर्यावरण कायदा',
-    environmentLowDesc:'पर्यावरण कायदा म्हणजे पर्यावरणाचे संरक्षण करणारे नियम, नियमावली आणि तत्त्वांचा संच आहे.',
+    environmentLaw:'पर्यावरण कायदा',
+    environmentLawDesc:'पर्यावरण कायदा म्हणजे पर्यावरणाचे संरक्षण करणारे नियम, नियमावली आणि तत्त्वांचा संच आहे.',
     insuranceLaw:'विमा कायदा',
     insuranceLawDesc:'विमा कायदा हा कायद्याचा तो भाग आहे जो विमा कंपनी आणि ग्राहक यामधील करारांशी संबंधित असतो.',
     

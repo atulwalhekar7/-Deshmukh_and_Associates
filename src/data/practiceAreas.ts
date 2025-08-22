@@ -104,8 +104,8 @@ export const practiceAreas: PracticeArea[] = [
     successRate: '89%'
   },
   {
-    id: 'environment-Low',
-    title: 'environment Low',
+    id: 'environment-Law',
+    title: 'environment Law',
     description: 'its is low created for consumer sequrity',
     icon: 'Gavel',
     fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',

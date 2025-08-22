@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
     { name: t('propertyLaw'), path: '/Deshmukh&Associates/property-law' },
     { name: t('consumerLaw'), path: '/Deshmukh&Associates/consumer-law' },
     { name: t('corporateandcommercialLaw'), path: '/Deshmukh&Associates/corporateandcommercial-Law' },
-    { name: t('environmentLow'), path: '/Deshmukh&Associates/environment-Low' },
+    { name: t('environmentLaw'), path: '/Deshmukh&Associates/environment-Law' },
     { name: t('insuranceLaw'), path: '/Deshmukh&Associates/insurance-Law' },
   ];
 
