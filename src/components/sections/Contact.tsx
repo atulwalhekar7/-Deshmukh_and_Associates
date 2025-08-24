@@ -37,8 +37,8 @@ const Contact: React.FC = () => {
         alert('Failed to send message. Please try again later.');
       });
   };
-  // Handle form submission here
-  console.log('Form submitted:', formData);
+  
+ 
 
 
   return (

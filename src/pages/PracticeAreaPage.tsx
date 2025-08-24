@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, CheckCircle, Award, Users, TrendingUp } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Building, Home, Gavel, Scale } from 'lucide-react';
-import { practiceAreas } from '../data/practiceAreas';
+import { usePracticeAreas } from '../data/practiceAreas';
 import { useTranslation } from '../hooks/useTranslation';
 import LocalDiningIcon from '@mui/icons-material/LocalDining';
 import LaptopIcon from '@mui/icons-material/Laptop';
@@ -16,21 +16,23 @@ const PracticeAreaPage: React.FC = () => {
   const { areaId } = useParams<{ areaId: string }>();
   const navigate = useNavigate();
   const { t, language } = useTranslation();
+  const practiceAreas = usePracticeAreas();
+
 
   const practiceArea = practiceAreas.find(area => area.id === areaId);
 
   const services = [
     {
-      icon: <Gavel className="w-12 h-12 text-golden-500" />,
-      title: t('criminalLaw'),
-      description: t('criminalLawDesc'),
-      path: "/Deshmukh&Associates/criminal-law"
-    },
-    {
       icon: <Scale className="w-12 h-12 text-golden-500" />,
       title: t('civilLaw'),
       description: t('civilDesc'),
       path: "/Deshmukh&Associates/civil-law"
+    },
+    {
+      icon: <Gavel className="w-12 h-12 text-golden-500" />,
+      title: t('criminalLaw'),
+      description: t('criminalLawDesc'),
+      path: "/Deshmukh&Associates/criminal-law"
     },
     {
       icon: <Building className="w-12 h-12 text-golden-500" />,
@@ -44,12 +46,7 @@ const PracticeAreaPage: React.FC = () => {
       description: t('propertyDesc'),
       path: "/Deshmukh&Associates/property-law"
     },
-    {
-      icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
-      title: t('environmentLaw'),
-      description: t('environmentLawDesc'),
-      path: "/Deshmukh&Associates/environment-Law"
-    },
+
     {
       icon: <LocalDiningIcon className="w-12 h-12 text-golden-500" />,
       title: t('consumerLaw'),
@@ -62,7 +59,12 @@ const PracticeAreaPage: React.FC = () => {
       description: t('corporateandcommercialLawDesc'),
       path: "/Deshmukh&Associates/corporateandcommercial-Law"
     },
-
+    {
+      icon: <ForestIcon className="w-12 h-12 text-golden-500" />,
+      title: t('environmentLaw'),
+      description: t('environmentLawDesc'),
+      path: "/Deshmukh&Associates/environment-Law"
+    },
     {
       icon: <LocalShippingIcon className="w-12 h-12 text-golden-500" />,
       title: t('insuranceLaw'),
@@ -275,7 +277,7 @@ const PracticeAreaPage: React.FC = () => {
               {t('scheduleFreeConsultation')}
             </a>
             <button
-              onClick={() => window.location.href = 'tel:+1234567890'}
+              onClick={() => window.location.href = 'tel:+91-98765-43210'}
               className="border-2 border-gold text-gold hover:bg-gold hover:text-black px-10 py-5 rounded-xl text-lg font-bold transition-all duration-300 transform hover:scale-105 flex items-center space-x-3"
             >
               <Phone className="w-6 h-6" />

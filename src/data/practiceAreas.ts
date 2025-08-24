@@ -1,12 +1,17 @@
 import { PracticeArea } from '../types';
+import { useTranslation } from '../hooks/useTranslation';
+   
 
-export const practiceAreas: PracticeArea[] = [
+export function usePracticeAreas(): PracticeArea[] {
+  const { t } = useTranslation();
+
+  return [
   {
     id: 'civil-law',
-    title: 'Civil Law',
+    title: t('civilLaw'),
     description: 'Comprehensive civil litigation services including contract disputes and tort claims.',
     icon: 'Scale',
-    fullDescription: 'Our civil law practice encompasses a wide range of legal matters affecting individuals and businesses. We provide expert representation in contract disputes, property matters, personal injury cases, and complex civil litigation.',
+    fullDescription: t("fullDescriptionCivil"),
     services: [
       'Contract Disputes',
       'Property Litigation',
@@ -15,15 +20,15 @@ export const practiceAreas: PracticeArea[] = [
       'Civil Appeals',
       'Injunction Proceedings'
     ],
-    experience: '5+ Years',
-    successRate: '92%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR1')
   },
   {
     id: 'criminal-law',
-    title: 'Criminal Law',
+    title: t('criminalLaw'),
     description: 'Expert criminal defense representation for all types of criminal charges.',
     icon: 'Gavel',
-    fullDescription: 'Our criminal defense team provides aggressive representation for clients facing criminal charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescription: t('fullDescriptionCrim'),
     services: [
       'White Collar Crimes',
       'Drug Offenses',
@@ -32,15 +37,15 @@ export const practiceAreas: PracticeArea[] = [
       'DUI Defense',
       'Appeals & Post-Conviction'
     ],
-    experience: '5+ Years',
-    successRate: '89%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR2')
   },
   {
     id: 'corporate-law',
-    title: 'Corporate Law',
+    title: t('corporateLaw'),
     description: 'Strategic legal counsel for businesses, mergers, acquisitions, and compliance.',
     icon: 'Building',
-    fullDescription: 'We provide comprehensive corporate legal services to businesses of all sizes, from startups to established corporations. Our expertise covers corporate governance, compliance, and strategic transactions.',
+    fullDescription: t('fullDescriptionCorp'),
     services: [
       'Corporate Formation',
       'Mergers & Acquisitions',
@@ -49,15 +54,15 @@ export const practiceAreas: PracticeArea[] = [
       'Employment Law',
       'Intellectual Property'
     ],
-    experience: '5+ Years',
-    successRate: '95%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR3')
   },
   {
     id: 'property-law',
-    title: 'Property Law',
+    title: t('propertyLaw'),
     description: 'Specialized expertise in property law, real estate transactions, and disputes.',
     icon: 'Home',
-    fullDescription: 'Our property law practice handles all aspects of real estate transactions and disputes. We ensure smooth property transfers and resolve complex property-related legal issues.',
+    fullDescription: t('fullDescriptionProp'),
     services: [
       'Property Transactions',
       'Title Disputes',
@@ -66,15 +71,15 @@ export const practiceAreas: PracticeArea[] = [
       'Construction Law',
       'Property Development'
     ],
-    experience: '5+ Years',
-    successRate: '94%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR4')
   },
   {
     id: 'consumer-law',
-    title: 'consumer Law',
+    title: t('consumerLaw'),
     description: 'its is low created for consumer sequrity',
     icon: 'Gavel',
-    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescription: t('fullDescriptionCons'),
     services: [
       'Right to Safety',
       'Right to Choose',
@@ -83,15 +88,15 @@ export const practiceAreas: PracticeArea[] = [
       'Protection from Unfair Practices',
       'Consumer Education'
     ],
-    experience: '5+ Years',
-    successRate: '89%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR1')
   },
     {
     id: 'corporateandcommercial-Law',
-    title: 'corporate and commercial Low',
+    title: t('corporateandcommercialLaw'),
     description: 'its is low created for consumer sequrity',
     icon: 'Gavel',
-    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescription: t('fullDescriptionCanaC'),
     services: [
       'Contract Drafting & Review',
       'usiness Formation & Corporate Structuring',
@@ -100,15 +105,15 @@ export const practiceAreas: PracticeArea[] = [
       'Intellectual Property Protection',
       'Dispute Resolution & Litigation'
     ],
-    experience: '5+ Years',
-    successRate: '89%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR2')
   },
   {
     id: 'environment-Law',
-    title: 'environment Law',
+    title: t('environmentLaw'),
     description: 'its is low created for consumer sequrity',
     icon: 'Gavel',
-    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescription: t('fullDescriptionCrim'),
     services: [
       'Pollution Control and Regulation',
       'Environmental Permits and Clearances',
@@ -117,15 +122,15 @@ export const practiceAreas: PracticeArea[] = [
       'Climate Change and Sustainability Regulations',
       'Legal Action and Public Interest Litigation (PIL)'
     ],
-    experience: '5+ Years',
-    successRate: '89%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR3')
   },
   {
     id: 'insurance-Law',
-    title: 'insurance Law',
+    title: t('insuranceLaw'),
     description: 'its is low created for consumer sequrity',
     icon: 'Gavel',
-    fullDescription: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescription: t('fullDescriptionInsur'),
     services: [
       'Policy Drafting and Review',
       'Claims Handling and Settlement',
@@ -134,7 +139,8 @@ export const practiceAreas: PracticeArea[] = [
       'Dispute Resolution and Litigation',
       'Reinsurance and Risk Management'
     ],
-    experience: '5+ Years',
-    successRate: '89%'
+    experience: t("experienceCivil"),
+    successRate: t('succesR4')
   },
 ];
+}
