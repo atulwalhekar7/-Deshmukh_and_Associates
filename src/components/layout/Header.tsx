@@ -96,7 +96,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center px-4 py-5">
             {/* Logo */}
            <div className="flex items-center gap-2 flex-shrink-0 mr-4 ml-[-1rem] sm:ml-0">
-             <a href="#home"><img  src={logo} alt="logo" className="rounded-full w-12 h-12 ml-2 object-cover sm:w-14 sm:h-14 md:w-16 md:h-16 min-w-[48px] min-h-[48px]" /></a>
+             <a href="#home"><img  src={logo} alt="logo" className="rounded-full w-12 h-12 ml-2 object-cover sm:w-14 sm:h-14 md:w-12 md:h-12 min-w-[48px] min-h-[48px]" /></a>
              <div className="flex-shrink-0 cursor-pointer ml-0" onClick={() => handleNavigation('/')}>
               <a href='#home'><h1 className={`text-1.5xl md:text-2xl font-bold transition-all duration-300 ${isScrolled
                 ? 'text-white'

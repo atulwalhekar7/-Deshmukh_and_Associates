@@ -5,48 +5,48 @@ export const translations = {
     about: 'About',
     practiceAreas: 'Practice Areas',
     team: 'Team',
-    gallery:'Gallery',
+    gallery: 'Gallery',
     contact: 'Contact',
     freeConsultation: 'Free Consultation',
     legalExcellence: 'Legal Excellence Since 2019',
     emergencySupport: '24/7 Emergency Legal Support',
-    
+
     // Hero/Carousel
     heroTitle: 'Deshmukh & Associates',
     excellence: 'Excellence in Legal Representation',
     excellenceSubtitle: 'Trusted Advocates. Proven Results. Your Success is Our Mission.',
     excellenceDesc: 'With over two decades of combined experience, we deliver strategic legal solutions that protect your interests and secure favorable outcomes.',
-    
+
     criminalDefense: 'Criminal Defense Mastery',
     criminalSubtitle: 'Defending Your Rights. Protecting Your Future. Fighting for Justice.',
     criminalDesc: 'Aggressive criminal defense with a track record of dismissed charges, reduced sentences, and acquittals in complex criminal cases.',
-    
+
     corporateLegal: 'Corporate Legal Excellence',
     corporateSubtitle: 'Strategic Business Counsel. Compliance Expertise. Growth Solutions.',
     corporateDesc: 'Comprehensive corporate advisory services helping businesses navigate complex legal landscapes and achieve sustainable growth.',
-    
+
     awardWinning: 'Award-Winning Legal Team',
     awardSubtitle: 'Recognition. Excellence. Results That Matter.',
     awardDesc: 'Consistently rated among top legal firms with numerous accolades, client testimonials, and successful case outcomes.',
-    
+
     scheduleConsultation: 'Schedule Consultation',
     getConsultation: 'Get Legal Help',
     businessConsultation: 'Business Consultation',
     viewSuccess: 'View Our Success',
     learnMore: 'Learn More',
-    
+
     // About
     whoWeAre: 'About us',
     //aboutDesc1: 'Deshmukh & Associates is a full-service law firm based in Pune, with over 15 years of experience in civil, criminal, corporate, and property law. We are dedicated to providing exceptional legal services with integrity, professionalism, and a deep commitment to our clients\' success.',
     aboutDesc01: 'Welcome to Deshmukh and Associates!',
     //aboutDesc2: 'Our team combines extensive legal expertise with a personalized approach, ensuring that each client receives the attention and representation they deserve. We pride ourselves on building lasting relationships based on trust, transparency, and results.',
-     aboutDesc1: 'At Deshmukh and Associates,we believe in the power of adcocacy to drive positve change. Established in 2019,our firm is commited to protecting the rights of individuals and organization in vadgaon maval,pune,and across india.Our vision is to build a just society where every individual’s rights are respected and upheld. We are guided by integrity, compassion, and a commitment to excellence in legal practice. From complex legal matters to everyday disputes, we provide expert counsel and dedicated representation.',
-     aboutDesc2:'Over the years, we have earned the trust of our clients through ethical practice, legal expertise, and a results-driven approach. Every case matters to us, and we strive to achieve the best outcomes with diligence and professionalismExplore our website to learn more about our team, our services, and how we can assist you.',
-     aboutDesc3: 'Thank you for visiting Deshmukh Associates. We look forward to serving you.',
-     aboutDesc4: '- Adv. Harshad Rajendra Deshmukh.',
-     aboutDesc5: '- Adv. Kajal Harshad Deshmukh-Walhekar.',
-      learnMoreAbout: 'Learn More About Us',
-    
+    aboutDesc1: 'At Deshmukh and Associates,we believe in the power of adcocacy to drive positve change. Established in 2019,our firm is commited to protecting the rights of individuals and organization in vadgaon maval,pune,and across india.Our vision is to build a just society where every individual’s rights are respected and upheld. We are guided by integrity, compassion, and a commitment to excellence in legal practice. From complex legal matters to everyday disputes, we provide expert counsel and dedicated representation.',
+    aboutDesc2: 'Over the years, we have earned the trust of our clients through ethical practice, legal expertise, and a results-driven approach. Every case matters to us, and we strive to achieve the best outcomes with diligence and professionalismExplore our website to learn more about our team, our services, and how we can assist you.',
+    aboutDesc3: 'Thank you for visiting Deshmukh Associates. We look forward to serving you.',
+    aboutDesc4: '- Adv. Harshad Rajendra Deshmukh.',
+    aboutDesc5: '- Adv. Kajal Harshad Deshmukh-Walhekar.',
+    learnMoreAbout: 'Learn More About Us',
+
     // Services
     practiceAreasTitle: 'Practice Areas',
     practiceAreasDesc: 'We provide comprehensive legal services across multiple practice areas with unparalleled expertise.',
@@ -58,15 +58,28 @@ export const translations = {
     corporateLawDesc: 'Strategic legal counsel for businesses, mergers, acquisitions, and compliance.',
     propertyLaw: 'Property Law',
     propertyDesc: 'Specialized expertise in property law, real estate transactions, and disputes.',
-    consumerLaw:'Consumer Law',
-    consumerDesc:'its is low created for consumer sequrity',
-    corporateandcommercialLaw:'corporate and commercial Law',
-    corporateandcommercialLawDesc:'deals with the creation,structure,and goverance of companies',
-    environmentLaw:'environment Law',
-    environmentLawDesc:'environmental low is the set of rules ,regulations,and principle that protect the environment.',
-    insuranceLaw:'insurance Law',
-    insuranceLawDesc:'insurance law is the branch of low that deals with agreements btween an insurance company',
-    
+    consumerLaw: 'Consumer Law',
+    consumerDesc: 'its is low created for consumer sequrity',
+    corporateandcommercialLaw: 'Corporate And Commercial Law',
+    corporateandcommercialLawDesc: 'deals with the creation,structure,and goverance of companies',
+    environmentLaw: 'Environment Law',
+    environmentLawDesc: 'environmental low is the set of rules ,regulations,and principle that protect the environment.',
+    insuranceLaw: 'Insurance Law',
+    insuranceLawDesc: 'insurance law is the branch of low that deals with agreements btween an insurance company',
+    fullDescriptionCivil: 'Our civil law practice encompasses a wide range of legal matters affecting individuals and businesses. We provide expert representation in contract disputes, property matters, personal injury cases, and complex civil litigation.',
+    experienceCivil: '5+ Years',
+    fullDescriptionCrim: 'Our criminal defense team provides aggressive representation for clients facing criminal charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescriptionCorp: 'We provide comprehensive corporate legal services to businesses of all sizes, from startups to established corporations. Our expertise covers corporate governance, compliance, and strategic transactions.',
+    fullDescriptionProp: 'Our property law practice handles all aspects of real estate transactions and disputes. We ensure smooth property transfers and resolve complex property-related legal issues.',
+    fullDescriptionCons: 'Our consumer defense team provides aggressive representation for clients facing consumer charges. We handle everything from minor offenses to serious felonies with dedication and expertise.',
+    fullDescriptionCanaC: 'We offer tailored legal solutions in corporate and commercial law, assisting businesses with contracts, joint ventures, mergers, and day-to-day operational matters. Our focus is on protecting your interests while enabling sustainable business growth.',
+    fullDescriptionEnvir: 'Our environmental law services help clients navigate complex regulations, ensuring compliance with sustainability standards and environmental obligations. We support businesses in managing risk while promoting responsible and eco-conscious operations.',
+    fullDescriptionInsur: 'We provide expert guidance in insurance law, advising on policy interpretation, claims management, and regulatory compliance. Our team works to safeguard your rights and resolve disputes effectively, ensuring comprehensive coverage for your business interests.',
+    succesR1:'92%',
+    succesR2:'89%',
+    succesR3:'95%',
+    succesR4:'94%',
+
     // Why Choose Us
     whyChooseUs: 'Why Choose Us',
     whyChooseDesc: 'Our commitment to excellence and client satisfaction sets us apart in the legal industry.',
@@ -76,22 +89,22 @@ export const translations = {
     transparentDesc: 'Clear communication and transparent billing with no hidden costs or surprises.',
     successRate: 'High Success Rate',
     successRateDesc: 'Consistently achieving favorable outcomes for our clients through strategic legal approach.',
-    
+
     // Team
     ourTeam: 'Our Legal Team',
     teamDesc: 'Meet our experienced attorneys dedicated to providing exceptional legal representation.',
     seniorPartner: 'Senior Partner',
     partner: 'Partner',
     associate: 'Associate',
-    associateAdvocate:'Associate Advocate',
-    seniorAssociate:'Senior Associate',
+    associateAdvocate: 'Associate Advocate',
+    seniorAssociate: 'Senior Associate',
     civilProperty: 'Civil & Property Law',
     criminalFamily: 'Criminal & Family Law',
     civilCriminal: 'Civil & Criminal Filing',
-    propertyRealEstate:'Property & Real Estate Disputes',
+    propertyRealEstate: 'Property & Real Estate Disputes',
     corporateCommercial: 'Corporate & Commercial Law',
     viewProfile: 'View Full Profile',
-    
+
     // Testimonials
     clientsSay: 'What Our Clients Say',
     testimonialsDesc: 'Don\'t just take our word for it - hear from our satisfied clients.',
@@ -99,7 +112,7 @@ export const translations = {
     testimonial2: 'I highly recommend Deshmukh associates to anyone in need of a skilled lawyer who can effectively manage both criminal and civil cases.Thanks to Harshad, Kajal and team keep it up.',
     testimonial3: 'For both civil and criminal cases, I recommend that you look here for your best advocate and greatest result.',
     testimonial4: 'Good Service, Professional Advice Good in Criminal and Civil Cases Please visit.',
-    
+
     // Contact
     getInTouch: 'Get In Touch',
     contactDesc: 'Ready to discuss your legal needs? Contact us today for a consultation.',
@@ -114,7 +127,7 @@ export const translations = {
     addressText: 'Mhalaskar Complex,Near Talathi office,Patilwada,Vadgaon Tal.Maval,Dist.Pune-412106',
     phoneNumber: '+91-98765-43210',
     emailAddress: 'info@deshmukhlaw.com',
-    
+
     // Footer
     footerDesc: 'Providing exceptional legal services with integrity, professionalism, and unwavering commitment to our clients\' success for over 5 years.',
     quickLinks: 'Quick Links',
@@ -128,7 +141,7 @@ export const translations = {
     barRegistration: 'Licensed to practice law in Maharashtra, India | Bar Council Registration: MH/1234/2019',
     ratedFirm: '🏆 Rated #1 Legal Firm in Pune',
     clientSatisfaction: '⭐ 4.9/5 Client Satisfaction',
-    
+
     // Practice Area Pages
     backToHome: 'Back to Home',
     getLegalConsultation: 'Get Legal Consultation',
@@ -150,16 +163,16 @@ export const translations = {
     readyDesc: 'Don\'t wait. Contact our expert {area} team today for a free consultation and let us help you achieve the best possible outcome for your case.',
     scheduleFreeConsultation: 'Schedule Free Consultation',
     exploreOtherServices: 'Explore Other Services',
-    callUs:'Call Us',
+    callUs: '+91-98765-43210',
     practiceAreaNotFound: 'Practice Area Not Found',
     returnHome: 'Return Home',
     title: 'civil low', 
     fullDesc: 'Our civil law practice encompasses a wide range of legal matters affecting individuals and businesses. We provide expert representation in contract disputes, property matters, personal injury cases, and complex civil litigation.',   
 
     //Gallery
-    gallery:'Gallery',
-    viewMore:'See More',
-    goBack:'Go Back'
+    gallery: 'Gallery',
+    viewMore: 'See More',
+    goBack: 'Go Back'
   },
   mr: {
     // Header
@@ -171,31 +184,31 @@ export const translations = {
     freeConsultation: 'मोफत सल्लामसलत',
     legalExcellence: '२०१९ पासून कायदेशीर उत्कृष्टता',
     emergencySupport: '२४/७ आपत्कालीन कायदेशीर सहाय्य',
-    
+
     // Hero/Carousel
     heroTitle: 'देशमुख अँड असोसिएट्स',
     excellence: 'कायदेशीर प्रतिनिधित्वात उत्कृष्टता',
     excellenceSubtitle: 'विश्वसनीय वकील. सिद्ध परिणाम. तुमचे यश आमचे ध्येय.',
     excellenceDesc: 'दोन दशकांहून अधिक एकत्रित अनुभवासह, आम्ही तुमच्या हितसंबंधांचे संरक्षण करणारे आणि अनुकूल परिणाम सुनिश्चित करणारे धोरणात्मक कायदेशीर समाधान प्रदान करतो.',
-    
+
     criminalDefense: 'फौजदारी बचाव प्रभुत्व',
     criminalSubtitle: 'तुमच्या अधिकारांचे रक्षण. तुमच्या भविष्याचे संरक्षण. न्यायासाठी लढा.',
     criminalDesc: 'जटिल फौजदारी प्रकरणांमध्ये फेटाळलेले आरोप, कमी केलेली शिक्षा आणि निर्दोष सुटकेचा ट्रॅक रेकॉर्डसह आक्रमक फौजदारी बचाव.',
-    
+
     corporateLegal: 'कॉर्पोरेट कायदेशीर उत्कृष्टता',
     corporateSubtitle: 'धोरणात्मक व्यावसायिक सल्ला. अनुपालन तज्ञता. वाढीचे समाधान.',
     corporateDesc: 'व्यवसायांना जटिल कायदेशीर परिदृश्यांमध्ये नेव्हिगेट करण्यात आणि शाश्वत वाढ साध्य करण्यात मदत करणाऱ्या सर्वसमावेशक कॉर्पोरेट सल्लागार सेवा.',
-    
+
     awardWinning: 'पुरस्कार विजेती कायदेशीर टीम',
     awardSubtitle: 'मान्यता. उत्कृष्टता. महत्त्वाचे परिणाम.',
     awardDesc: 'असंख्य पुरस्कार, क्लायंट प्रशंसापत्रे आणि यशस्वी केस परिणामांसह सातत्याने शीर्ष कायदेशीर फर्ममध्ये रेट केले गेले.',
-    
+
     scheduleConsultation: 'सल्लामसलत नियोजित करा',
     getConsultation: 'कायदेशीर मदत मिळवा',
     businessConsultation: 'व्यावसायिक सल्लामसलत',
     viewSuccess: 'आमचे यश पहा',
     learnMore: 'अधिक जाणून घ्या',
-    
+
     // About
     whoWeAre: 'आम्ही कोण आहोत',
     aboutDesc01: 'आपले स्वागत आहे देशमुख अँड असोसिएट्स मध्ये!',
@@ -203,10 +216,10 @@ export const translations = {
     aboutDesc2: 'वर्षानुवर्षे आम्ही नैतिक व्यवहार, कायदेशीर कौशल्य आणि परिणामाभिमुख दृष्टिकोनाच्या माध्यमातून आमच्या क्लायंट्सचा विश्वास संपादन केला आहे. प्रत्येक केस आमच्यासाठी महत्त्वाची आहे, आणि आम्ही दक्षता व व्यावसायिकतेसह सर्वोत्तम निकाल मिळवण्यासाठी सतत प्रयत्नशील आहोत. आमची टीम, सेवा आणि आम्ही आपली कशी मदत करू शकतो याबद्दल अधिक जाणून घेण्यासाठी आमची वेबसाइट एक्सप्लोर करा. ',
     aboutDesc3: 'देशमुख अँड असोसिएट्स भेट दिल्याबद्दल आपले मनःपूर्वक आभार. आम्ही आपली सेवा करण्यास उत्सुक आहोत.– अॅड. हर्षद राजेंद्र देशमुख– अॅड. काजल हर्षद देशमुख-वळवेकर',
     aboutDesc4: 'Adv. हर्षद राजेंद्र देशमुख',
-     aboutDesc5: '- Adv. काजल हर्षद देशमुख-वल्हेकर.',
+    aboutDesc5: '- Adv. काजल हर्षद देशमुख-वल्हेकर.',
 
     learnMoreAbout: 'आमच्याबद्दल अधिक जाणून घ्या',
-    
+
     // Services
     practiceAreasTitle: 'कायदेशीर क्षेत्रे',
     practiceAreasDesc: 'आम्ही अतुलनीय कौशल्यासह अनेक कायदेशीर क्षेत्रांमध्ये सर्वसमावेशक कायदेशीर सेवा प्रदान करतो.',
@@ -220,14 +233,26 @@ export const translations = {
     propertyDesc: 'मालमत्ता कायदा, रिअल इस्टेट व्यवहार आणि विवादांमध्ये विशेष कौशल्य.',
     consumerLaw: 'ग्राहक कायदा',
     consumerDesc: 'हा कायदा ग्राहकांच्या सुरक्षिततेसाठी तयार करण्यात आलेला आहे.',
-    corporateandcommercialLaw:'कॉर्पोरेट आणि व्यावसायिक कायदा',
-    corporateandcommercialLawDesc:'कंपन्यांची निर्मिती, रचना आणि कारभार (शासन) यांच्याशी संबंधित आहे.',
-    environmentLaw:'पर्यावरण कायदा',
-    environmentLawDesc:'पर्यावरण कायदा म्हणजे पर्यावरणाचे संरक्षण करणारे नियम, नियमावली आणि तत्त्वांचा संच आहे.',
-    insuranceLaw:'विमा कायदा',
-    insuranceLawDesc:'विमा कायदा हा कायद्याचा तो भाग आहे जो विमा कंपनी आणि ग्राहक यामधील करारांशी संबंधित असतो.',
-    
-    
+    corporateandcommercialLaw: 'कॉर्पोरेट आणि व्यावसायिक कायदा',
+    corporateandcommercialLawDesc: 'कंपन्यांची निर्मिती, रचना आणि कारभार (शासन) यांच्याशी संबंधित आहे.',
+    environmentLaw: 'पर्यावरण कायदा',
+    environmentLawDesc: 'पर्यावरण कायदा म्हणजे पर्यावरणाचे संरक्षण करणारे नियम, नियमावली आणि तत्त्वांचा संच आहे.',
+    insuranceLaw: 'विमा कायदा',
+    insuranceLawDesc: 'विमा कायदा हा कायद्याचा तो भाग आहे जो विमा कंपनी आणि ग्राहक यामधील करारांशी संबंधित असतो.',
+    fullDescriptionCivil: "आमच्या नागरी कायदा पद्धतीमध्ये व्यक्ती आणि व्यवसायांवर परिणाम करणाऱ्या विविध कायदेशीर बाबींचा समावेश आहे. आम्ही करार विवाद, मालमत्तेच्या बाबी, वैयक्तिक दुखापतीच्या प्रकरणांमध्ये आणि जटिल दिवाणी खटल्यांमध्ये तज्ञांचे प्रतिनिधित्व प्रदान करतो.",
+    experienceCivil: "५+ वर्षे",
+    fullDescriptionCrim: "आमची फौजदारी बचाव टीम गुन्हेगारी आरोपांना सामोरे जाणाऱ्या क्लायंटसाठी प्रभावी प्रतिनिधित्व पुरवते. किरकोळ गुन्ह्यांपासून ते गंभीर गुन्ह्यांपर्यंत आम्ही समर्पण आणि कौशल्याने हाताळतो.",
+    fullDescriptionCorp: "आम्ही स्टार्टअप्सपासून ते स्थापन कंपन्यांपर्यंत सर्व प्रकारच्या व्यवसायांना व्यापक कॉर्पोरेट कायदेशीर सेवा पुरवतो. आमचे कौशल्य कॉर्पोरेट गव्हर्नन्स, अनुपालन आणि धोरणात्मक व्यवहारांमध्ये आहे.",
+    fullDescriptionProp: "आमची मालमत्ता कायदा प्रॅक्टिस स्थावर मालमत्तेच्या सर्व व्यवहारांवर आणि वादांवर काम करते. आम्ही मालमत्ता हस्तांतरण सुरळीत होईल याची काळजी घेतो आणि जटिल मालमत्ता- संबंधित कायदेशीर समस्या सोडवतो.",
+    fullDescriptionCons: "आमची ग्राहक बचाव टीम ग्राहकविषयक गुन्ह्यांना सामोरे जाणाऱ्या क्लायंटसाठी प्रभावी प्रतिनिधित्व पुरवते. किरकोळ प्रकरणांपासून ते गंभीर गुन्ह्यांपर्यंत आम्ही समर्पण आणि कौशल्याने हाताळतो.",
+    fullDescriptionCanaC: "आम्ही कॉर्पोरेट आणि व्यावसायिक कायद्यात सानुकूलित कायदेशीर उपाय प्रदान करतो, ज्यामध्ये करार, संयुक्त उपक्रम, विलीनीकरणे आणि दैनंदिन व्यावसायिक बाबींचा समावेश आहे. तुमचे हित संरक्षित करत शाश्वत व्यवसाय वाढ साध्य करण्यावर आमचा भर आहे.",
+    fullDescriptionEnvir: "आमच्या पर्यावरणविषयक कायदेशीर सेवा क्लायंटना गुंतागुंतीच्या नियमांचे पालन करण्यात मदत करतात. शाश्वतता मानकांचे आणि पर्यावरणीय बंधनांचे पालन सुनिश्चित करताना आम्ही व्यवसायांना जोखीम व्यवस्थापित करण्यात मदत करतो आणि जबाबदार, पर्यावरणपूरक कार्यपद्धतीला प्रोत्साहन देतो.",
+    fullDescriptionInsur: "आम्ही विमा कायद्यात तज्ज्ञ मार्गदर्शन देतो, पॉलिसीचे विश्लेषण, दावे व्यवस्थापन आणि नियामक अनुपालन याबाबत सल्ला पुरवतो. तुमचे अधिकार सुरक्षित राखणे आणि वादांचे प्रभावी निराकरण करणे हा आमचा उद्देश असून, तुमच्या व्यावसायिक हितासाठी व्यापक संरक्षण सुनिश्चित करतो.",
+    succesR1: "९२%",
+    succesR2: "८९%",
+    succesR3: "९५%",
+    succesR4: "९४%",
+
     // Why Choose Us
     whyChooseUs: 'आम्हाला का निवडावे',
     whyChooseDesc: 'उत्कृष्टता आणि क्लायंट समाधानासाठी आमची वचनबद्धता आम्हाला कायदेशीर उद्योगात वेगळे ठेवते.',
@@ -237,22 +262,22 @@ export const translations = {
     transparentDesc: 'कोणतेही छुपे खर्च किंवा आश्चर्य नसताना स्पष्ट संवाद आणि पारदर्शी बिलिंग.',
     successRate: 'उच्च यश दर',
     successRateDesc: 'धोरणात्मक कायदेशीर दृष्टिकोनाद्वारे आमच्या क्लायंटसाठी सातत्याने अनुकूल परिणाम साध्य करणे.',
-    
+
     // Team
     ourTeam: 'आमची कायदेशीर टीम',
     teamDesc: 'अपवादात्मक कायदेशीर प्रतिनिधित्व प्रदान करण्यासाठी समर्पित आमच्या अनुभवी वकिलांना भेटा.',
     seniorPartner: 'वरिष्ठ भागीदार',
     partner: 'भागीदार',
     associate: 'सहयोगी',
-    associateAdvocate:'सहकारी वकील',
-    seniorAssociate:'वरिष्ठ सहकारी',
+    associateAdvocate: 'सहकारी वकील',
+    seniorAssociate: 'वरिष्ठ सहकारी',
     civilProperty: 'दिवाणी आणि मालमत्ता कायदा',
     criminalFamily: 'फौजदारी आणि कौटुंबिक कायदा',
     civilCriminal: 'नागरी आणि फौजदारी नोंदणी',
-    propertyRealEstate:'मालमत्ता आणि रिअल इस्टेट वाद',
+    propertyRealEstate: 'मालमत्ता आणि रिअल इस्टेट वाद',
     corporateCommercial: 'कॉर्पोरेट आणि व्यावसायिक कायदा',
     viewProfile: 'संपूर्ण प्रोफाइल पहा',
-    
+
     // Testimonials
     clientsSay: 'आमचे क्लायंट काय म्हणतात',
     testimonialsDesc: 'फक्त आमचा शब्द घेऊ नका - आमच्या समाधानी क्लायंटकडून ऐका.',
@@ -264,7 +289,7 @@ export const translations = {
     getInTouch: 'संपर्कात रहा',
     contactDesc: 'तुमच्या कायदेशीर गरजांवर चर्चा करण्यास तयार आहात? आज सल्लामसलतीसाठी आमच्याशी संपर्क साधा.',
     name: 'नाव',
-    yourName:'तुमचे नाव',
+    yourName: 'तुमचे नाव',
     emailAddresss: 'तुमचा ईमेल पत्ता',
     email: 'ईमेल',
     message: 'संदेश',
@@ -274,7 +299,7 @@ export const translations = {
     addressText: 'महालसकर कॉम्प्लेक्स, तालाठी कार्यालयाजवळ, पाटीलवाडा, वडगांव तालुका मावळ, जिल्हा पुणे - ४१२१०६',
     phoneNumber: '+९१-९८७६५-४३२१०',
     emailAddress: 'info@deshmukhlaw.com',
-    
+
     // Footer
     footerDesc: '५ वर्षांहून अधिक काळ आमच्या क्लायंटच्या यशासाठी सचोटी, व्यावसायिकता आणि अटूट वचनबद्धतेसह अपवादात्मक कायदेशीर सेवा प्रदान करत आहोत.',
     quickLinks: 'द्रुत दुवे',
@@ -288,7 +313,7 @@ export const translations = {
     barRegistration: 'महाराष्ट्र, भारतात कायदा सराव करण्यासाठी परवानाकृत | बार कौन्सिल नोंदणी: MH/1234/2019',
     ratedFirm: '🏆 पुण्यातील #१ कायदेशीर फर्म',
     clientSatisfaction: '⭐ ४.९/५ क्लायंट समाधान',
-    
+
     // Practice Area Pages
     backToHome: 'मुख्यपृष्ठावर परत',
     getLegalConsultation: 'कायदेशीर सल्लामसलत मिळवा',
@@ -312,22 +337,27 @@ export const translations = {
     exploreOtherServices: 'इतर सेवा एक्सप्लोर करा',
     practiceAreaNotFound: 'कायदेशीर क्षेत्र सापडले नाही',
     returnHome: 'मुख्यपृष्ठावर परत',
+<<<<<<< HEAD
      title: 'नागरी कायदा', 
+=======
+     callUs: '+९१-९८७६५-४३२१०',
+
+>>>>>>> dc8cbbc11d973cef4a1d28b352e2d190db77ac3c
     //Gallery
-    gallery:' प्रदर्शन',
-    viewMore:'अधिक पहा',
-    goBack:'परत जा'
+    gallery: ' प्रदर्शन',
+    viewMore: 'अधिक पहा',
+    goBack: 'परत जा'
   }
 };
 
 export const getTranslation = (key: string, language: 'en' | 'mr', replacements?: Record<string, string>): string => {
   let translation = translations[language][key as keyof typeof translations['en']] || key;
-  
+
   if (replacements) {
     Object.entries(replacements).forEach(([placeholder, value]) => {
       translation = translation.replace(`{${placeholder}}`, value);
     });
   }
-  
+
   return translation;
 };
