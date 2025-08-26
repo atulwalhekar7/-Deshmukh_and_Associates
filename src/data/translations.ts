@@ -125,8 +125,8 @@ export const translations = {
     address: 'Address',
     phone: 'Phone',
     addressText: 'Mhalaskar Complex,Near Talathi office,Patilwada,Vadgaon Tal.Maval,Dist.Pune-412106',
-    phoneNumber: '+91-98765-43210',
-    emailAddress: 'info@deshmukhlaw.com',
+    phoneNumber: '+91-83799-56578',
+    emailAddress: 'harshaddeshmukh12@gmail.com',
 
     // Footer
     footerDesc: 'Providing exceptional legal services with integrity, professionalism, and unwavering commitment to our clients\' success for over 5 years.',
@@ -138,9 +138,9 @@ export const translations = {
     legalDisclaimer: 'Legal Disclaimer',
     cookiePolicy: 'Cookie Policy',
     copyright: '© 2025 Deshmukh & Associates. All rights reserved.',
-    barRegistration: 'Licensed to practice law in Maharashtra, India | Bar Council Registration: MH/1234/2019',
-    ratedFirm: '🏆 Rated #1 Legal Firm in Pune',
-    clientSatisfaction: '⭐ 4.9/5 Client Satisfaction',
+    barRegistration: 'Licensed to practice law in Maharashtra, India | Bar Council Registration Firm',
+    ratedFirm: '🏆 Top Rated Legal Firm',
+    clientSatisfaction: '⭐ 5/5 Client Satisfaction',
 
     // Practice Area Pages
     backToHome: 'Back to Home',
@@ -163,7 +163,7 @@ export const translations = {
     readyDesc: 'Don\'t wait. Contact our expert {area} team today for a free consultation and let us help you achieve the best possible outcome for your case.',
     scheduleFreeConsultation: 'Schedule Free Consultation',
     exploreOtherServices: 'Explore Other Services',
-    callUs: '+91-98765-43210',
+    callUs: '+91-83799-56578',
     practiceAreaNotFound: 'Practice Area Not Found',
     returnHome: 'Return Home',
 
@@ -295,8 +295,8 @@ export const translations = {
     address: 'पत्ता',
     phone: 'फोन',
     addressText: 'महालसकर कॉम्प्लेक्स, तालाठी कार्यालयाजवळ, पाटीलवाडा, वडगांव तालुका मावळ, जिल्हा पुणे - ४१२१०६',
-    phoneNumber: '+९१-९८७६५-४३२१०',
-    emailAddress: 'info@deshmukhlaw.com',
+    phoneNumber: '+९१-८३७९९-५६५७८',
+    emailAddress: 'harshaddeshmukh12@gmail.com',
 
     // Footer
     footerDesc: '५ वर्षांहून अधिक काळ आमच्या क्लायंटच्या यशासाठी सचोटी, व्यावसायिकता आणि अटूट वचनबद्धतेसह अपवादात्मक कायदेशीर सेवा प्रदान करत आहोत.',
@@ -308,9 +308,9 @@ export const translations = {
     legalDisclaimer: 'कायदेशीर अस्वीकरण',
     cookiePolicy: 'कुकी धोरण',
     copyright: '© २०२५ देशमुख अँड असोसिएट्स. सर्व हक्क राखीव.',
-    barRegistration: 'महाराष्ट्र, भारतात कायदा सराव करण्यासाठी परवानाकृत | बार कौन्सिल नोंदणी: MH/1234/2019',
-    ratedFirm: '🏆 पुण्यातील #१ कायदेशीर फर्म',
-    clientSatisfaction: '⭐ ४.९/५ क्लायंट समाधान',
+    barRegistration: 'महाराष्ट्र, भारतात कायदा सराव करण्यासाठी परवानाकृत | बार कौन्सिल नोंदणी फर्म',
+    ratedFirm: '🏆 शीर्ष रेटेड कायदेशीर फर्म',
+    clientSatisfaction: '⭐ ५/५ क्लायंट समाधान',
 
     // Practice Area Pages
     backToHome: 'मुख्यपृष्ठावर परत',
@@ -335,7 +335,7 @@ export const translations = {
     exploreOtherServices: 'इतर सेवा एक्सप्लोर करा',
     practiceAreaNotFound: 'कायदेशीर क्षेत्र सापडले नाही',
     returnHome: 'मुख्यपृष्ठावर परत',
-     callUs: '+९१-९८७६५-४३२१०',
+     callUs: '+९१-८३७९९-५६५७८',
 
     //Gallery
     gallery: ' प्रदर्शन',

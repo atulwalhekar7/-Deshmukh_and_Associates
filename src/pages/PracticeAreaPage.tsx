@@ -272,12 +272,21 @@ const PracticeAreaPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
               href="#scroll"
+              onClick={(e) => {
+                e.preventDefault(); // Prevent default jump
+                const element = document.getElementById('scroll');
+                if (element) {
+                  const yOffset = 150; // Adjust this offset as needed
+                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                  window.scrollTo({ top: y, behavior: 'smooth' });
+                }
+              }}
               className="bg-gold hover:bg-gold-600 text-black px-10 py-5 rounded-xl text-lg font-bold transition-all duration-300 shadow-2xl hover:shadow-gold/25 transform hover:-translate-y-2 hover:scale-105"
             >
               {t('scheduleFreeConsultation')}
             </a>
             <button
-              onClick={() => window.location.href = 'tel:+91-98765-43210'}
+              onClick={() => window.location.href = 'tel:+91-83799-56578'}
               className="border-2 border-gold text-gold hover:bg-gold hover:text-black px-10 py-5 rounded-xl text-lg font-bold transition-all duration-300 transform hover:scale-105 flex items-center space-x-3"
             >
               <Phone className="w-6 h-6" />

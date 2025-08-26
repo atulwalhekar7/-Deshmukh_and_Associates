@@ -56,7 +56,7 @@ const CarouselBanner: React.FC = () => {
       icon: <Award className="w-20 h-20 text-golden-400" />,
       background: "from-charcoal via-charcoal-800 to-charcoal",
       pattern: "award-trophy",
-      cta: t('viewSuccess')
+      cta: t('scheduleConsultation')
     }
   ];
 
@@ -79,12 +79,22 @@ const CarouselBanner: React.FC = () => {
     setCurrentSlide(index);
   };
 
+  // const scrollToContact = () => {
+  //   const element = document.getElementById('contact');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      const yOffset = 150; // Adjust this value to control offset (negative moves up)
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
+
 
   return (
     <section id="home" className="relative h-screen overflow-hidden">
@@ -173,25 +183,25 @@ const CarouselBanner: React.FC = () => {
                           </span>
                         </button>
 
-                        <button
+                        {/* <button
                           className={`border-2 px-8 py-4 rounded-xl text-base font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-xl ${slide.background.includes('white')
                             ? 'border-charcoal text-charcoal hover:bg-charcoal hover:text-white'
                             : 'border-gold text-gold hover:bg-gold hover:text-black'
                             }`}
                         >
                           {t('learnMore')}
-                        </button>
+                        </button> */}
                       </div>
                     </div>
 
-                   
+
                     <div className="hidden lg:block animate-fade-in-right">
                       <div className="relative w-56 h-56 mx-auto">
                         {/* Outer circle */}
                         <div
                           className={`absolute inset-0 m-auto w-56 h-56 rounded-full animate-pulse-slow ${slide.background.includes('white')
-                              ? 'bg-gradient-to-br from-charcoal/10 to-charcoal/20'
-                              : 'bg-gradient-to-br from-gold/10 to-gold/20'
+                            ? 'bg-gradient-to-br from-charcoal/10 to-charcoal/20'
+                            : 'bg-gradient-to-br from-gold/10 to-gold/20'
                             }`}
                           style={{ zIndex: 10 }}
                         ></div>
@@ -199,8 +209,8 @@ const CarouselBanner: React.FC = () => {
                         {/* Middle circle */}
                         <div
                           className={`absolute inset-0 m-auto w-40 h-40 rounded-full animate-spin-very-slow ${slide.background.includes('white')
-                              ? 'bg-gradient-to-br from-charcoal/20 to-charcoal/30'
-                              : 'bg-gradient-to-br from-gold/20 to-gold/30'
+                            ? 'bg-gradient-to-br from-charcoal/20 to-charcoal/30'
+                            : 'bg-gradient-to-br from-gold/20 to-gold/30'
                             }`}
                           style={{ zIndex: 20 }}
                         ></div>

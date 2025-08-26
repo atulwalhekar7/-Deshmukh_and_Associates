@@ -60,6 +60,17 @@ const Header: React.FC = () => {
     return location.pathname === path;
   };
 
+ const scrollToContact = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      const yOffset = 150; // Adjust this value to control offset (negative moves up)
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <>
       {/* Top Contact Bar */}
@@ -144,7 +155,8 @@ const Header: React.FC = () => {
 
               {/* CTA Button */}
               <button
-                onClick={() => handleNavigation('/', 'contact')}
+                // onClick={() => handleNavigation('/', 'contact')}
+                 onClick={scrollToContact}
                 className="bg-gold hover:bg-gold-600 text-black px-6 py-3 rounded-lg font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105"
               >
                 {t('freeConsultation')}
