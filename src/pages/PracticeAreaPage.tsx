@@ -19,6 +19,7 @@ const PracticeAreaPage: React.FC = () => {
 
   const practiceArea = practiceAreas.find(area => area.id === areaId);
 
+  
   const services = [
     {
       icon: <Gavel className="w-12 h-12 text-golden-500" />,
@@ -111,11 +112,13 @@ const PracticeAreaPage: React.FC = () => {
             <div className="animate-fade-in-up">
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
                 <span className="text-gold">
-                  {practiceArea.title}
+                {practiceArea.title}
+                 
                 </span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                 {practiceArea.fullDescription}
+                
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">

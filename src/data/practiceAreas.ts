@@ -1,4 +1,7 @@
 import { PracticeArea } from '../types';
+import { useTranslation } from '../hooks/useTranslation';
+
+//const { t }= useTranslation()
 
 export const practiceAreas: PracticeArea[] = [
   {
@@ -7,6 +10,7 @@ export const practiceAreas: PracticeArea[] = [
     description: 'Comprehensive civil litigation services including contract disputes and tort claims.',
     icon: 'Scale',
     fullDescription: 'Our civil law practice encompasses a wide range of legal matters affecting individuals and businesses. We provide expert representation in contract disputes, property matters, personal injury cases, and complex civil litigation.',
+    //fullDescription: {t('fullDesc')},
     services: [
       'Contract Disputes',
       'Property Litigation',
@@ -137,4 +141,6 @@ export const practiceAreas: PracticeArea[] = [
     experience: '5+ Years',
     successRate: '89%'
   },
+  
+   
 ];

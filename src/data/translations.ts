@@ -153,6 +153,8 @@ export const translations = {
     callUs:'Call Us',
     practiceAreaNotFound: 'Practice Area Not Found',
     returnHome: 'Return Home',
+    title: 'civil low', 
+    fullDesc: 'Our civil law practice encompasses a wide range of legal matters affecting individuals and businesses. We provide expert representation in contract disputes, property matters, personal injury cases, and complex civil litigation.',   
 
     //Gallery
     gallery:'Gallery',
@@ -310,7 +312,7 @@ export const translations = {
     exploreOtherServices: 'इतर सेवा एक्सप्लोर करा',
     practiceAreaNotFound: 'कायदेशीर क्षेत्र सापडले नाही',
     returnHome: 'मुख्यपृष्ठावर परत',
-
+     title: 'नागरी कायदा', 
     //Gallery
     gallery:' प्रदर्शन',
     viewMore:'अधिक पहा',

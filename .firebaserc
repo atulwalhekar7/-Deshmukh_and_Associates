@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "deshmukh-and-associates"
-  }
+    "default": "deshmukh-and-associates",
+    "Deshmukh_and_Associates": "deshmukh-and-associates-0065"
+  },
+  "targets": {},
+  "etags": {}
 }
