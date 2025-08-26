@@ -68,7 +68,8 @@ export default function ProfileImageGrid() {
             <img
               src={item.img}
               alt={item.title}
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
               style={{
                 width: '100%',
                 height: '100%',
