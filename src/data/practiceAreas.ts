@@ -113,7 +113,7 @@ export function usePracticeAreas(): PracticeArea[] {
     title: t('environmentLaw'),
     description: 'its is low created for consumer sequrity',
     icon: 'Gavel',
-    fullDescription: t('fullDescriptionCrim'),
+    fullDescription: t('fullDescriptionEnvir'),
     services: [
       'Pollution Control and Regulation',
       'Environmental Permits and Clearances',
