@@ -5,7 +5,7 @@ export const translations = {
     about: 'About',
     practiceAreas: 'Practice Areas',
     team: 'Team',
-    gallery: 'Gallery',
+    // gallery: 'Gallery',
     contact: 'Contact',
     freeConsultation: 'Free Consultation',
     legalExcellence: 'Legal Excellence Since 2019',

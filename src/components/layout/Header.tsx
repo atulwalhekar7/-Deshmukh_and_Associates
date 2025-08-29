@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Mail, MapPin, Languages } from 'lucide-react';
+import { Menu, X, Phone, Mail, MapPin } from 'lucide-react';
 // import { ThemeController } from '../../controllers/ThemeController';
 import { NavigationController } from '../../controllers/NavigationController';
 import { useTranslation } from '../../hooks/useTranslation';
-import E2M from '../../assets/team/E2M.png';
+import E2M from '../../assets/team/E2M.webp';
 import M2E from '../../assets/team/M2E.png';
 import logo from '../../assets/team/logo.ico';
 
@@ -69,6 +69,16 @@ const Header: React.FC = () => {
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
+
+  // const scrollToContactForm = () => {
+  //   const element = document.getElementById('contact');
+  //   if (element) {
+  //     const yOffset = 90; // Adjust this value to control offset (negative moves up)
+  //     const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+  //     window.scrollTo({ top: y, behavior: 'smooth' });
+  //   }
+  // };
 
 
   return (
@@ -137,7 +147,7 @@ const Header: React.FC = () => {
                 { name: t('practiceAreas'), path: '/', sectionId: 'services' },
                 // { name: t('team'), path: '/', sectionId: 'team' },
                 { name: t('gallery'), path: '/', sectionId: 'gallery' },
-                { name: t('contact'), path: '/', sectionId: 'contact' }
+                 { name: t('contact'), path: '/', sectionId: 'contact' }
               ].map((item) => (
                 <button
                   key={item.name}
@@ -153,6 +163,17 @@ const Header: React.FC = () => {
                 </button>
               ))}
 
+               {/* <button
+                   onClick={scrollToContactForm} */}
+                   {/* className={`text-base font-semibold hover:text-golden-400 transition-all duration-300 relative group ${isActive('/') ? 'text-gold' : */}
+                     {/* isScrolled
+                       ? 'text-white'
+                       : 'text-white'
+                     }`}
+                 > */}
+                  {/* {t('contact')}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"></span>
+                </button> */}
               {/* CTA Button */}
               <button
                 // onClick={() => handleNavigation('/', 'contact')}
